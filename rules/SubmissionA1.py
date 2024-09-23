@@ -34,5 +34,5 @@ def roofArea(model):
                     total_roof_area += prop.NominalValue.wrappedValue
 
     #Then we print the value of the property
-    result = print(f"\n The roof in the arc model has n area of {total_roof_area} square meters")
+    result = print(f"\n The roof in the arc model has an area of {total_roof_area} square meters")
     return result
