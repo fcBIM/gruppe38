@@ -1,6 +1,6 @@
 Group 38 - Analyst
 
-Focus area: Group 38 - Sustainability and materials
+Focus area: Sustainability and Materials
 
 Claim from the PM report: 
 IFCRoof in ARC-model has a total of the following squaremeters: 1479m^2 
