@@ -3,7 +3,7 @@ Group 38 - Analyst
 Focus area: Group 38 - Sustainability and materials
 
 Claim from the PM report: 
-IFCRoof in ARC-model has the following square meter: 1479m^2 
+IFCRoof in ARC-model has a total of the following squaremeters: 1479m^2 
 
 Source of claim: 
 file CES_BLD_24_06_PM_Appendix.pdf p. 5 Appendix b LCI for LCA 
