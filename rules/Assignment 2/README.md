@@ -1,7 +1,7 @@
 # Formalities
 41934 Advanced Building Information Modeling 2024
 We are group 38 and the focus area is Sustainability and materials.
-In terms of programming skills we chose to 
+/In terms of programming skills we chose to 
 - [x] Disagree. 
 
 The focus area is Sustainability and materials where the main objective is to be an analyst and export file with a total GWP score for specified IfcElements.
