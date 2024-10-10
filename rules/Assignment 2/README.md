@@ -11,7 +11,7 @@ we chose:
 We chose the #2406 building from last years Advanced Building Design course because it seems like the model have all the required data that we need in order for us to develop a relevant tool for our choice of use case.  
 Claim is that the building will emit 6,74 kgC02eq/m2/year, and the claim is from the ARC report: BEATS -> CO2 -> 6,74 kgC02eq./m2/yr.  
 The source of claim is from the file [#2406 ARC Report](https://github.com/fcBIM/gruppe38/blob/809fada3f66e063b730dfc2ff6c38421f6afafb6/rules/Assignment%202/files/CES_BLD_24_06_ARC.pdf) page 5.  
-## Use Case
+# Use Case
 How you would check this claim?
 
 When would this claim need to be checked?
@@ -39,7 +39,7 @@ Is it in the model?
 Do you know how to get it in ifcOpenShell?
 
 
-## Tool Idea  
+# Tool Idea  
 Describe in words your idea for your own OpenBIM ifcOpenShell Tool in Python.
 
 What is the business and societal value of your tool?
@@ -56,7 +56,7 @@ Is it in the model?
 Do you know how to get it in ifcOpenShell?
 
 
-## Software requirements to run this tool  
+# Software requirements to run this tool  
 
 1. LCAByg
 2. Microsoft package - Excel
