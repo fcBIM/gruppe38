@@ -40,7 +40,7 @@ Is it in the model?
 Do you know how to get it in ifcOpenShell?
 
 
-A2e: Tool Idea
+## Tool Idea  
 Describe in words your idea for your own OpenBIM ifcOpenShell Tool in Python.
 
 What is the business and societal value of your tool?
@@ -57,7 +57,7 @@ Is it in the model?
 Do you know how to get it in ifcOpenShell?
 
 
-Markup: #Software requirements to run this tool#
+## Software requirements to run this tool  
 
 1. LCAByg
 2. Microsoft package - Excel
