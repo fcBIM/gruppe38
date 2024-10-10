@@ -25,7 +25,7 @@ What BIM purpose is required? Gather, generate, analyse, communicate or realise?
 Review use case examples - do any of these help?, What BIM use case is this closest to? If you cannot find one from the examples, you can make a new one.
 
 Produce a BPMN drawing for your chosen use case. link to this so we can see it in your markdown file. To do this you will have to save it as an SVG, please also save the BPMN with it.mYou can use this online tool to create a BPMN file.
-
+[Preliminary BPMN diagram](https://github.com/fcBIM/gruppe38/blob/2469687baea8ea2ae0baedddbf63d1b55d766b13/rules/Assignment%202/IMG/PreliminaryBPMN.png)
 
 A2d: Scope the use case
 From the ‘whole use case’ identify where a new script / function / tool is needed. Highlight this in your BPMN diagram. Show this clearly in a new SVG diagram. You may wish to change the SVG diagram, you can use inkscape for this task.
