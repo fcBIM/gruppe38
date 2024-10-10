@@ -16,7 +16,6 @@ The use case for our work is going to be matching relevant IfcEntities with corr
 By extracting the relevant entities and the underlying IfcMaterial or IfcMaterialLayer we want to match environmental data with that material. After a potential match the tool should now create a file (JSON) with all the matched data and the corresponding GWP score. Finally, we want to sum up the total GWP score of an IfcEntity in the BIM model to get a insights on the overall impact the entity and in the end the building will have on the environment.  
 Preferably this tool will be able to match all materials in the building with a corresponding environmental score, but realistically with the limited time we have, it will print a list of some entities in the BIM model. This score could then be checked by calculating the amount from the #2406 report: [#2406 PM Appendix](https://github.com/fcBIM/gruppe38/blob/bfc0fecdb650550fa5acecadf90a5e590b67155d/rules/Assignment%202/files/CES_BLD_24_06_PM_Appendix.pdf) p. 2.
 
-How you would check this claim?
 
 When would this claim need to be checked?
 
