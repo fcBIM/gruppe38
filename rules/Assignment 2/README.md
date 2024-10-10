@@ -19,9 +19,9 @@ When would this claim need to be checked?
 What information does this claim rely on?
 
 What phase? planning, design, build or operation.
-
+Planning and design of building.
 What BIM purpose is required? Gather, generate, analyse, communicate or realise?
-
+Gather, analyse and communicate.
 Review use case examples - do any of these help?, What BIM use case is this closest to? If you cannot find one from the examples, you can make a new one.
 
 Produce a BPMN drawing for your chosen use case. link to this so we can see it in your markdown file. To do this you will have to save it as an SVG, please also save the BPMN with it.mYou can use this online tool to create a BPMN file.
@@ -42,7 +42,12 @@ Do you know how to get it in ifcOpenShell?
 # Tool Idea  
 Describe in words your idea for your own OpenBIM ifcOpenShell Tool in Python.
 
-What is the business and societal value of your tool?
+### Potential value  
+- Facilitate a smooth and coordinated collaboration between designers and sustainability engineers
+- Enable a more environmental friendly design process.
+- Potential to reduce the design phase.
+- Reduces documentation phase.
+
 
 Produce a BPMN diagram to summarise your idea. Save this in a folder in your repository along with an SVG of the disagram and embed the SVG in the Markdown as an image.
 
