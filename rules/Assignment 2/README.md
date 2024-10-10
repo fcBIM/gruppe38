@@ -12,6 +12,9 @@ We chose the #2406 building from last years Advanced Building Design course beca
 Claim is that the building will emit 6,74 kgC02eq/m2/year, and the claim is from the ARC report: BEATS -> CO2 -> 6,74 kgC02eq./m2/yr.  
 The source of claim is from the file [#2406 ARC Report](https://github.com/fcBIM/gruppe38/blob/809fada3f66e063b730dfc2ff6c38421f6afafb6/rules/Assignment%202/files/CES_BLD_24_06_ARC.pdf) page 5.  
 # Use Case
+The use case for our work is going to be matching relevant IfcEntities with corresponding environmental data such as GWP of a certain material.  
+By extracting the relevant entities and the underlying IfcMaterial or IfcMaterialLayer we want to match environmental data with that material. After a potential match the tool should now create a file (JSON) with all the matched data and the corresponding GWP score. Finally, we want to sum up the total GWP score of an IfcEntity in the BIM model to get a better understanding on the overall impact the entity will have 
+
 How you would check this claim?
 
 When would this claim need to be checked?
