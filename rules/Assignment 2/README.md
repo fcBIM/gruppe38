@@ -1,9 +1,9 @@
 # Formalities
+41934 Advanced Building Information Modeling 2024
+We are group 38 and the focus area is Sustainability and materials.
+In terms of programming skills we chose to -[X] Disagree. 
 
-Formalities:
-Group 38 - Sustainability and materials.
-
-A2a: Disagree. The focus area is Sustainability and materials where the main objective is to be an analyst and export a (CSV) file with a total GWP score for specified IfcElements.
+The focus area is Sustainability and materials where the main objective is to be an analyst and export file with a total GWP score for specified IfcElements.
 
 A2b: The chosen building from last years Advanced Building Design course is going to be building #2406.
 Claim: 6,74 kgC02eq/m2/year.
