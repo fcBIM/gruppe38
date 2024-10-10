@@ -52,8 +52,7 @@ Is it in the model?
 Do you know how to get it in ifcOpenShell?
 
 
-A2g: Identify appropriate software licence
-What software licence will you choose for your project?
+Software requirements to run this tool
 
 1. LCAByg
 2. Microsoft package - Excel
