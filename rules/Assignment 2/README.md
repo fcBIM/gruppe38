@@ -10,7 +10,7 @@ we chose:
 ### The chosen building 
 We chose the #2406 building from last years Advanced Building Design course because it seems like the model have all the required data that we need in order for us to develop a relevant tool for our choice of use case.  
 Claim is that the building will emit 6,74 kgC02eq/m2/year, and the claim is from the ARC report: BEATS -> CO2 -> 6,74 kgC02eq./m2/yr.  
-The source of claim is from the file https://github.com/fcBIM/gruppe38/blob/809fada3f66e063b730dfc2ff6c38421f6afafb6/rules/Assignment%202/files/CES_BLD_24_06_ARC.pdf
+The source of claim is from the file [ARC report](https://github.com/fcBIM/gruppe38/blob/809fada3f66e063b730dfc2ff6c38421f6afafb6/rules/Assignment%202/files/CES_BLD_24_06_ARC.pdf)
 ## Use Case
 How you would check this claim?
 
