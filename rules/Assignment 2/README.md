@@ -5,9 +5,8 @@ In terms of programming skills we answered this to the following question:
 #### I am confident coding in Python.  
 we chose:  
 - [x] Disagree.   
-As we are fairly new but are interested in improving this skill.
+<br /> As we are fairly new but are interested in improving this skill.
 The focus area is Sustainability and materials where the main objective is to be an analyst and export file with a total GWP score for specified IfcElements.
-
 ### The chosen building 
 We chose the #2406 building from last years Advanced Building Design course because it seems like the model have all the required data that we need in order for us to develop a relevant tool for our choice of use case.
 Claim: 6,74 kgC02eq/m2/year.
