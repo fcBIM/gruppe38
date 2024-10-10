@@ -1,4 +1,4 @@
-## Formalities
+# Formalities
 
 Formalities:
 Group 38 - Sustainability and materials.
