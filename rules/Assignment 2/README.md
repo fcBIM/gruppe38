@@ -8,9 +8,9 @@ we chose:
 <br /> As we are fairly new but are interested in improving this skill.
 
 ### The chosen building 
-We chose the #2406 building from last years Advanced Building Design course because it seems like the model have all the required data that we need in order for us to develop a relevant tool for our choice of use case.
-Claim: 6,74 kgC02eq/m2/year.
-Claim is from the ARC report: BEATS -> CO2 -> 6,74 kgC02eq./m2/yr. Source of claim: file CES_BLD_24_06_ARC p. 5. 
+We chose the #2406 building from last years Advanced Building Design course because it seems like the model have all the required data that we need in order for us to develop a relevant tool for our choice of use case.  
+Claim is that the building will emit 6,74 kgC02eq/m2/year, and the claim is from the ARC report: BEATS -> CO2 -> 6,74 kgC02eq./m2/yr.  
+The source of claim is from the file CES_BLD_24_06_ARC p. 5. 
 
 ## Use Case
 How you would check this claim?
