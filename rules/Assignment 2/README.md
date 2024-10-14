@@ -24,6 +24,7 @@ The BIM purpose is to Gather, analyse and communicate the potential environmenta
 
 Our [Preliminary BPMN diagram](https://github.com/fcBIM/gruppe38/blob/89ea5d6d9d00bd6cb1448ef867cdf248e4adb2dc/rules/Assignment%202/IMG/BPMN_Preliminary.svg) can be found witht the highlighted link.
 
+[highlighted tool idea from BPMN](https://github.com/fcBIM/gruppe38/blob/89ea5d6d9d00bd6cb1448ef867cdf248e4adb2dc/rules/Assignment%202/IMG/BPMN%20highlighted%20tool.svg)
 
 A2d: Scope the use case
 From the ‘whole use case’ identify where a new script / function / tool is needed. Highlight this in your BPMN diagram. Show this clearly in a new SVG diagram. You may wish to change the SVG diagram, you can use inkscape for this task.
