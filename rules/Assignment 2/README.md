@@ -50,7 +50,9 @@ Identified information needed to extract from the model:
 2. Create a list of all materials in the entity (IfcMaterailLayer)
 3. Potentially creating lists for all materials in the building
 4. Create a list of all quantities for the materials in the entity (IfcElementQuantity)
+   
 All of the environmental data such as EPD's will be retrieved from outside the model and crossrefenced with the corresponding materials in the model.  
+
 In order to retrieve it from IfcOpenShell we still need to get a better understanding on how to extract the different material layers of an entity. 
 The rest of the tool shouldn't be too difficult to program. We might bump into some problems with unit conversion but that's nothing to do with IfcOpenShell.
 
