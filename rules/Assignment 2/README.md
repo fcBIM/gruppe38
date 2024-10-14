@@ -66,6 +66,7 @@ Do you know how to get it in ifcOpenShell?
 
 # Software requirements to run this tool  
 
+In order to be able to run this tool we expect the following softwares to be required:  
 1. LCAByg
 2. Microsoft package - Excel
 3. IfcOpenShell
