@@ -22,7 +22,7 @@ The tool would be used for the design and post build phase, as the tool has a po
 
 The BIM purpose is to Gather, analyse and communicate the potential environmental impact of the specific materials as well as a full LCA of the building.
 
-Our [Preliminary BPMN diagram](https://github.com/fcBIM/gruppe38/blob/2469687baea8ea2ae0baedddbf63d1b55d766b13/rules/Assignment%202/IMG/PreliminaryBPMN.png) can be found witht the highlighted link.
+Our [Preliminary BPMN diagram](https://github.com/fcBIM/gruppe38/blob/89ea5d6d9d00bd6cb1448ef867cdf248e4adb2dc/rules/Assignment%202/IMG/BPMN_Preliminary.svg) can be found witht the highlighted link.
 
 
 A2d: Scope the use case
