@@ -13,7 +13,7 @@ Claim is that the building will emit 6,74 kgC02eq/m2/year, and the claim is from
 The source of claim is from the file [#2406 ARC Report](https://github.com/fcBIM/gruppe38/blob/809fada3f66e063b730dfc2ff6c38421f6afafb6/rules/Assignment%202/files/CES_BLD_24_06_ARC.pdf) page 5.  
 # Use Case
 The use case for our work is going to be matching relevant IfcEntities with corresponding environmental data such as GWP of certain materials.  
-By extracting the relevant entities and the underlying IfcMaterial or IfcMaterialLayer we want to match environmental data with that material. After a potential match the tool should now create a file (JSON) with all the matched data and the corresponding GWP score. Finally, we want to sum up the total GWP score of an IfcEntity in the BIM model to get a insights on the overall impact the entity and in the end the building will have on the environment.  
+By extracting the relevant entities and the underlying IfcMaterial or IfcMaterialLayer we want to match environmental data with that material. After a potential match the tool should now create a file (JSON) with all the matched data and the corresponding GWP score. Finally, we want to sum up the total GWP score of an IfcEntity in the BIM model to get insights on the overall impact the entity and in the end the building will have on the environment.  
 Preferably this tool will be able to match all materials in the building with a corresponding environmental score, but realistically with the limited time we have, it will print a list of some entities in the BIM model. This score could then be checked by calculating the amount from the #2406 report: [#2406 PM Appendix](https://github.com/fcBIM/gruppe38/blob/bfc0fecdb650550fa5acecadf90a5e590b67155d/rules/Assignment%202/files/CES_BLD_24_06_PM_Appendix.pdf) p. 2.
 
 The claims will be checked after a complete interdisciplinary BIM model have been made, data such as entities and material choices would be needed for a complete LCA of the building. If we instead are looking for a specific part of the design of the building it will be specified further. 
@@ -32,6 +32,7 @@ The new script idea is highlighted in the BPMN, to show where we think the scrip
 
 # Tool Idea  
 Describe in words your idea for your own OpenBIM ifcOpenShell Tool in Python.
+The tool should be able to extract data from an Ifc file, that contains the required information. The data extracted, more specifically, will be the quantities of all the materials (or in our case, one entity's materials) used in the building to match the environmental data on corresponding materials. In the end the tool will calculate the total GWP score of each material in the building, giving the potential to create a full LCA only missing out on the information on operational costs during the buildings use phase. 
 
 ### Potential value  
 - Facilitate a smooth and coordinated collaboration between designers and sustainability engineers
@@ -44,12 +45,12 @@ Describe in words your idea for your own OpenBIM ifcOpenShell Tool in Python.
 
 ## Information Requirements
 
-Identify what information you need to extract from the model
-
-Where is this in IFC?
-
-Is it in the model?
-
+Identified information needed to extract from the model:
+1. Create a list of entities in the building (IfcEntity)
+2. Create a list of all materials in the entity (IfcMaterailLayer)
+3. Potentially creating lists for all materials in the building
+4. Create a list of all quantities for the materials in the entity (IfcElementQuantity)
+All of the environmental data such as EPD's will be retrieved from outside the model and crossrefenced with the corresponding materials in the model.  
 In order to retrieve it from IfcOpenShell we still need to get a better understanding on how to extract the different material layers of an entity. 
 The rest of the tool shouldn't be too difficult to program. We might bump into some problems with unit conversion but that's nothing to do with IfcOpenShell.
 
