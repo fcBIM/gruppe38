@@ -23,20 +23,10 @@ The tool would be used for the design and post build phase, as the tool has a po
 The BIM purpose is to Gather, analyse and communicate the potential environmental impact of the specific materials as well as a full LCA of the building.
 
 Our [Preliminary BPMN diagram](https://github.com/fcBIM/gruppe38/blob/89ea5d6d9d00bd6cb1448ef867cdf248e4adb2dc/rules/Assignment%202/IMG/BPMN_Preliminary.svg) can be found witht the highlighted link.
-
+The new script idea is highlighted in the BPMN, to show where we think the script will help in order to suceed with the use case.
 [highlighted tool idea from BPMN](https://github.com/fcBIM/gruppe38/blob/89ea5d6d9d00bd6cb1448ef867cdf248e4adb2dc/rules/Assignment%202/IMG/BPMN%20highlighted%20tool.svg)
 
-A2d: Scope the use case
-From the ‘whole use case’ identify where a new script / function / tool is needed. Highlight this in your BPMN diagram. Show this clearly in a new SVG diagram. You may wish to change the SVG diagram, you can use inkscape for this task.
-A2f: Information Requirements
-Identify what information you need to extract from the model
 
-Where is this in IFC?
-
-Is it in the model?
-
-In order to retrieve it from IfcOpenShell we still need to get a better understanding on how to extract the different material layers of an entity. 
-The rest of the tool shouldn't be too difficult to program. We might bump into some problems with unit conversion but that's nothing to do with IfcOpenShell.
 
 
 
@@ -50,19 +40,21 @@ Describe in words your idea for your own OpenBIM ifcOpenShell Tool in Python.
 - Reduces documentation phase.
 
 
-Produce a BPMN diagram to summarise your idea. Save this in a folder in your repository along with an SVG of the disagram and embed the SVG in the Markdown as an image.
+# Information and Software requirements to run this tool
 
-A2f: Information Requirements
+## Information Requirements
+
 Identify what information you need to extract from the model
 
 Where is this in IFC?
 
 Is it in the model?
 
-Do you know how to get it in ifcOpenShell?
+In order to retrieve it from IfcOpenShell we still need to get a better understanding on how to extract the different material layers of an entity. 
+The rest of the tool shouldn't be too difficult to program. We might bump into some problems with unit conversion but that's nothing to do with IfcOpenShell.
 
 
-# Software requirements to run this tool  
+## Software requirements to run this tool  
 
 In order to be able to run this tool we expect the following softwares to be required:  
 1. LCAByg
