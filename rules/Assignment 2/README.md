@@ -20,9 +20,10 @@ The claims will be checked after a complete interdisciplinary BIM model have bee
 
 The tool would be used for the design and post build phase, as the tool has a potential to guide with the maintenance choices of the built building.
 
-The BIM purpose si to Gather, analyse and communicate the potential environmental impact of the specific materials as well as a full LCA of the building.
+The BIM purpose is to Gather, analyse and communicate the potential environmental impact of the specific materials as well as a full LCA of the building.
 
-[Preliminary BPMN diagram](https://github.com/fcBIM/gruppe38/blob/2469687baea8ea2ae0baedddbf63d1b55d766b13/rules/Assignment%202/IMG/PreliminaryBPMN.png)
+Our [Preliminary BPMN diagram](https://github.com/fcBIM/gruppe38/blob/2469687baea8ea2ae0baedddbf63d1b55d766b13/rules/Assignment%202/IMG/PreliminaryBPMN.png) can be found witht the highlighted link.
+
 
 A2d: Scope the use case
 From the ‘whole use case’ identify where a new script / function / tool is needed. Highlight this in your BPMN diagram. Show this clearly in a new SVG diagram. You may wish to change the SVG diagram, you can use inkscape for this task.
@@ -33,7 +34,9 @@ Where is this in IFC?
 
 Is it in the model?
 
-Do you know how to get it in ifcOpenShell?
+In order to retrieve it from IfcOpenShell we still need to get a better understanding on how to extract the different material layers of an entity. 
+The rest of the tool shouldn't be too difficult to program. We might bump into some problems with unit conversion but that's nothing to do with IfcOpenShell.
+
 
 
 # Tool Idea  
