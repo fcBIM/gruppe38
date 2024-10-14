@@ -12,22 +12,16 @@ We chose the #2406 building from last years Advanced Building Design course beca
 Claim is that the building will emit 6,74 kgC02eq/m2/year, and the claim is from the ARC report: BEATS -> CO2 -> 6,74 kgC02eq./m2/yr.  
 The source of claim is from the file [#2406 ARC Report](https://github.com/fcBIM/gruppe38/blob/809fada3f66e063b730dfc2ff6c38421f6afafb6/rules/Assignment%202/files/CES_BLD_24_06_ARC.pdf) page 5.  
 # Use Case
-The use case for our work is going to be matching relevant IfcEntities with corresponding environmental data such as GWP of a certain material.  
+The use case for our work is going to be matching relevant IfcEntities with corresponding environmental data such as GWP of certain materials.  
 By extracting the relevant entities and the underlying IfcMaterial or IfcMaterialLayer we want to match environmental data with that material. After a potential match the tool should now create a file (JSON) with all the matched data and the corresponding GWP score. Finally, we want to sum up the total GWP score of an IfcEntity in the BIM model to get a insights on the overall impact the entity and in the end the building will have on the environment.  
 Preferably this tool will be able to match all materials in the building with a corresponding environmental score, but realistically with the limited time we have, it will print a list of some entities in the BIM model. This score could then be checked by calculating the amount from the #2406 report: [#2406 PM Appendix](https://github.com/fcBIM/gruppe38/blob/bfc0fecdb650550fa5acecadf90a5e590b67155d/rules/Assignment%202/files/CES_BLD_24_06_PM_Appendix.pdf) p. 2.
 
+The claims will be checked after a complete interdisciplinary BIM model have been made, data such as entities and material choices would be needed for a complete LCA of the building. If we instead are looking for a specific part of the design of the building it will be specified further. 
 
-When would this claim need to be checked?
+The tool would be used for the design and post build phase, as the tool has a potential to guide with the maintenance choices of the built building.
 
-What information does this claim rely on?
+The BIM purpose si to Gather, analyse and communicate the potential environmental impact of the specific materials as well as a full LCA of the building.
 
-What phase? planning, design, build or operation.
-Planning and design of building.
-What BIM purpose is required? Gather, generate, analyse, communicate or realise?
-Gather, analyse and communicate.
-Review use case examples - do any of these help?, What BIM use case is this closest to? If you cannot find one from the examples, you can make a new one.
-
-Produce a BPMN drawing for your chosen use case. link to this so we can see it in your markdown file. To do this you will have to save it as an SVG, please also save the BPMN with it.mYou can use this online tool to create a BPMN file.
 [Preliminary BPMN diagram](https://github.com/fcBIM/gruppe38/blob/2469687baea8ea2ae0baedddbf63d1b55d766b13/rules/Assignment%202/IMG/PreliminaryBPMN.png)
 
 A2d: Scope the use case
