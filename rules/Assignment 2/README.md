@@ -59,8 +59,10 @@ The rest of the tool shouldn't be too difficult to program. We might bump into s
 
 ## Software requirements to run this tool  
 
-In order to be able to run this tool we expect the following softwares to be required:  
+In order to be able to run this tool we expect the following software to be required:  
+1. Python 3.10-12
+
+With an intention of expanding the script to also require the following:
 1. LCAByg
 2. Microsoft package - Excel
 3. IfcOpenShell
-4. Python 3.10-12
