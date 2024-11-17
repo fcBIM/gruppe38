@@ -1,0 +1,109 @@
+import ifcopenshell
+import os
+import time
+import numpy as np
+
+# IFC file import is taken from https://github.com/timmcginley/
+'''
+    load the IFC file
+'''
+name = '/Users/fredemollegaard/Desktop/Adv.BIM/CES_BLD_24_06_ARC'
+
+model_url = name + ".ifc"
+start_time = time.time()
+
+if os.path.exists(model_url):
+    model = ifcopenshell.open(model_url)
+    print("\n\tFile    : {}.ifc".format(name))
+    print("\tLoad    : {:.2f}s".format(float(time.time() - start_time)))
+else:
+    print("\nERROR: please check your model folder : " + model_url + " does not exist")
+
+# Retrieve all wall types in the IFC file
+wall_types = model.by_type("IfcWallType")
+wall_type_areas = {}
+
+# Initialize total area per wall type and material storage
+for wall_type in wall_types:
+    wall_type_areas[wall_type.id()] = {'name': wall_type.Name, 'area': 0.0, 'material_layers': []}
+
+# Function to calculate the area of an IfcWall instance (convert from mm² to m²)
+def calculate_wall_area(wall):
+    # Check if the wall has a geometry representation
+    if wall.Representation:
+        for representation in wall.Representation.Representations:
+            for item in representation.Items:
+                # Check if the geometry is an extruded area solid
+                if item.is_a("IfcExtrudedAreaSolid"):
+                    # Get the swept area and its size (width * height)
+                    profile = item.SweptArea
+                    if profile.is_a("IfcRectangleProfileDef"):
+                        width = profile.XDim  # width in mm
+                        height = profile.YDim  # height in mm
+                        length = item.Depth  # Extrusion depth (length) in mm
+                        # Calculate area and convert from mm² to m²
+                        area_in_mm2 = width * length  # Surface area in mm²
+                        return area_in_mm2 / 1_000_000  # Convert to m²
+    return 0.0
+
+# Function to get the material layers and their thickness for a wall type
+def get_wall_type_material_layers(wall_type):
+    material_layers = []
+    # Look for material associations for the wall type
+    material_relations = model.by_type("IfcRelAssociatesMaterial")
+    for rel in material_relations:
+        if rel.RelatingMaterial and wall_type in rel.RelatedObjects:
+            material = rel.RelatingMaterial
+            # If it's a composite material (like IfcMaterialLayerSet), get individual layers
+            if material.is_a("IfcMaterialLayerSet"):
+                for layer in material.MaterialLayers:
+                    layer_material = layer.Material.Name if layer.Material else "Unknown"
+                    thickness = layer.LayerThickness  # Thickness in mm
+                    material_layers.append((layer_material, thickness / 1000))  # Convert thickness from mm to m
+            # If it's a single material
+            elif material.is_a("IfcMaterial"):
+                material_layers.append((material.Name, 0))  # No thickness for single materials
+    return material_layers
+
+# Find the wall's type through IfcRelDefinesByType
+rel_defines_by_type = model.by_type("IfcRelDefinesByType")
+
+# Map each wall to its type and calculate the area
+for relation in rel_defines_by_type:
+    related_wall_type = relation.RelatingType
+    if related_wall_type.is_a("IfcWallType"):
+        # Get material layers and their thickness for the wall type
+        if not wall_type_areas[related_wall_type.id()]['material_layers']:
+            wall_type_areas[related_wall_type.id()]['material_layers'] = get_wall_type_material_layers(related_wall_type)
+        
+        for wall in relation.RelatedObjects:
+            wall_area = calculate_wall_area(wall)
+            wall_type_areas[related_wall_type.id()]['area'] += wall_area
+
+# Matrix 1: Wall Type and Total Area (in square meters) as NumPy Array
+wall_type_names = []
+wall_type_areas_list = []
+
+for wall_type_id, data in wall_type_areas.items():
+    wall_type_names.append(data['name'])
+    wall_type_areas_list.append(data['area'])
+
+# Create a NumPy array for wall type areas (2D matrix: Wall Type, Area)
+wall_type_area_matrix = np.array([wall_type_names, wall_type_areas_list]).T  # Transposed to get rows as (Name, Area)
+
+# Matrix 2: Wall Type, Material Layer, and Thickness as NumPy Array
+material_layer_info = []
+
+for wall_type_id, data in wall_type_areas.items():
+    for material_layer, thickness in data['material_layers']:
+        material_layer_info.append([data['name'], material_layer, thickness])
+
+# Create a NumPy array for material layers and thicknesses (3D matrix: Wall Type, Material Layer, Thickness)
+material_layer_matrix = np.array(material_layer_info)
+
+# Print the matrices
+print("\nMatrix 1: Wall Type and Total Area (in square meters):")
+print(wall_type_area_matrix)
+
+print("\nMatrix 2: Wall Type, Material Layer, and Thickness (in meters):")
+print(material_layer_matrix)
