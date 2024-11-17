@@ -1,7 +1,7 @@
 # Formalities
 
-Project: LCA of entities in a Building  
-Date: 12-01-2024
+**Project:** LCA of entities in a Building  
+**Date:** 12-01-2024
 
 
 41934 Advanced Building Information Modeling 2024
