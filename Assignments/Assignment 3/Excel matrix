@@ -1,0 +1,23 @@
+import pandas as pd
+import numpy as np
+
+# Load the Excel file
+file_path_xl = '/Users/fredemollegaard/Desktop/Adv.BIM/Excel_EPD_Data.xlsx'  # Insert the correct file path
+
+# Read the Excel file into a DataFrame
+df = pd.read_excel(file_path_xl)
+
+# Select only the 2nd (index 1), 3rd (index 2), and 5th (index 4) columns
+df_selected = df.iloc[:, [1, 2, 4]]
+df_backup = df.iloc[:, [1, 2, 3, 4, 5, 6, 7]]
+# Convert the DataFrame into a matrix (NumPy array) and then to a list
+matrix_selected = df_selected.to_numpy().tolist()
+
+# Example: Print the first few rows of the selected DataFrame and the matrix to check
+print("Selected DataFrame head (Columns 2, 3, 5):")
+print(df_selected.head())
+
+
+print("\nSelected Matrix:")
+print(matrix_selected)
+
