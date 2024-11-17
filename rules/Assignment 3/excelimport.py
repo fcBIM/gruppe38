@@ -5,6 +5,7 @@ import json
 
 # Load the Excel file
 file_path_csv = "Load path"
+# Read the csv file, define that the separator in the csv file is = ; and that the language is with special characters. In our case with danish letters.
 df = pd.read_csv(file_path_csv, sep=';', encoding='latin1')
 
 # Convert the DataFrame into a matrix and then to a list
