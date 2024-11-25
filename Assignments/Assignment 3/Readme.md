@@ -4,7 +4,7 @@
 The IFC model used for developing this script is from the course Advanced Building Design course group #2406.
 We are using the ARC IFC file in order to find alle the IfcEntities' MaterialLayers and their corresponding quantities. These findings will be matched with the environmental data provided by group #2406 PM appendix B to both fact check their results as well as having an easy access to environmental data for our tool.
 
-## 02. Assignment 3 use case analysis :
+## 02. Assignment 3 - use case analysis :
 The work done for Assignment 3 has been built on top of the work provided in Assignments 1 and 2, although some considerable modifications has been made.
 
 The following list will explain some major changes for the tool:
