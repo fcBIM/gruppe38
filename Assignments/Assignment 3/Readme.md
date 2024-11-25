@@ -8,9 +8,9 @@ We are using the ARC IFC file in order to find alle the IfcEntities' MaterialLay
 The work done for Assignment 3 has been built on top of the work provided in Assignments 1 and 2, although some considerable modifications has been made.
 
 The following list will explain some major changes for the tool:
-- Less ambition: Because of the limitations of our python skills as well as the deadline set by the course responsible, the ambition on creating a tool that can include all IfcEntities and calculate the environmental impact has been reduced to a single entity.
+- **Less ambitious:** Because of the limitations of our python skills as well as the deadline set by the course responsible, the ambition on creating a tool that can include all IfcEntities and calculate the environmental impact has been reduced to a single entity.
 - **Describe entity once chosen** Single and simple entity such as internal wall (if there are multiple layers in a single material layer, then we can't match the correct data to the layer). This change is because of the limitations explained above.
-- More user friendly: In order for this tool to be applicable for others and not be too time consuming, to change, to fit their own use case, an explanation in section "Further Development for this tool" will be presented.
+- **User friendly:** In order for this tool to be applicable for others and not be too time consuming, to change, to fit their own use case, an explanation in section "Further Development for this tool" will be presented.
     
 ### About the tool
 
