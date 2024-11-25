@@ -42,10 +42,14 @@ For the total environmental cost of the building the disciplines such as PM and 
 We would also propose that a new discipline for the Advanced Building Course is created, a so-called sustainability analyst, that could potentially provide the abovementioned work.  
 With such a discipline we would argue that the overall design of the building would include more thoughts on the environmental impact, ultimately reducing the GWP and meeting the Building Regulations requirements of a max CO2 emission of 12 kgCO2eq/m2/year. But potentially even meeting the Reduction Roadmap's ambitions to reduce the impact even more in trying to meet the Planetary Boundaries.
 
+## Software requirements to run this tool  
 
-**Information required to run the tool**
-
-Look at assignment 2 - furter included with new tool.
+In order to be able to run this tool we expect the following software to be required:  
+1. [X] Python 3.10-12 (needed to run the script)
+2. [X] Microsoft package - Excel (used as environmental data file, could be any software)
+3. [X] IfcOpenShell (for ifc work)
+4. [X] Numpy (for matrix work)
+5. [X] Pandas (for JSON work)
 
 ### Further development for this tool:
 
