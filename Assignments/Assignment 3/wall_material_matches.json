@@ -1,0 +1,726 @@
+[
+    {
+        "wall_type": "Basic Wall:Interior wall - Wood structure non load bearing wall (Gypsum)",
+        "wall_id": 3500,
+        "area_m2": 15498.595478639527,
+        "material_layers": [
+            {
+                "material_layer": "Clad - White",
+                "thickness_mm": 1.0,
+                "matches": {
+                    "match_1": {
+                        "material_name": "External walls Primer Overflade, facademaling, grundere, silikat",
+                        "similarity_score": 0.0
+                    },
+                    "match_2": {
+                        "material_name": "External walls Gypsum board Gyproc Climate",
+                        "similarity_score": 0.0
+                    },
+                    "match_3": {
+                        "material_name": "External walls Batt Insulation Isover formstyker 37, 300mm",
+                        "similarity_score": 0.0
+                    },
+                    "match_4": {
+                        "material_name": "External walls Construction wood Konstruktionstr\u00e6 af fyr og gran, savede og t\u00f8rrede",
+                        "similarity_score": 0.0
+                    },
+                    "match_5": {
+                        "material_name": "External walls Fiber cement board Windstopper extreme",
+                        "similarity_score": 0.0
+                    }
+                },
+                "material_layer_chosen": "External walls Primer Overflade, facademaling, grundere, silikat"
+            },
+            {
+                "material_layer": "Gypsum Wall Board",
+                "thickness_mm": 12.5,
+                "matches": {
+                    "match_1": {
+                        "material_name": "Wood structure internal - non load bearing wall Gypsum board Gyproc Climate",
+                        "similarity_score": 0.5222
+                    },
+                    "match_2": {
+                        "material_name": "External walls Gypsum board Gyproc Climate",
+                        "similarity_score": 0.4714
+                    },
+                    "match_3": {
+                        "material_name": "External walls Fiber cement board Windstopper extreme",
+                        "similarity_score": 0.2182
+                    },
+                    "match_4": {
+                        "material_name": "External walls Fiber cement board Swisspearl Deco",
+                        "similarity_score": 0.2182
+                    },
+                    "match_5": {
+                        "material_name": "Wood structure internal - non load bearing wall Paint Flugger PRO 5",
+                        "similarity_score": 0.1826
+                    }
+                },
+                "material_layer_chosen": "Wood structure internal - non load bearing wall Gypsum board Gyproc Climate"
+            },
+            {
+                "material_layer": "Gypsum Wall Board",
+                "thickness_mm": 12.5,
+                "matches": {
+                    "match_1": {
+                        "material_name": "Wood structure internal - non load bearing wall Gypsum board Gyproc Climate",
+                        "similarity_score": 0.5222
+                    },
+                    "match_2": {
+                        "material_name": "External walls Gypsum board Gyproc Climate",
+                        "similarity_score": 0.4714
+                    },
+                    "match_3": {
+                        "material_name": "External walls Fiber cement board Windstopper extreme",
+                        "similarity_score": 0.2182
+                    },
+                    "match_4": {
+                        "material_name": "External walls Fiber cement board Swisspearl Deco",
+                        "similarity_score": 0.2182
+                    },
+                    "match_5": {
+                        "material_name": "Wood structure internal - non load bearing wall Paint Flugger PRO 5",
+                        "similarity_score": 0.1826
+                    }
+                },
+                "material_layer_chosen": "Wood structure internal - non load bearing wall Gypsum board Gyproc Climate"
+            },
+            {
+                "material_layer": "Structure, Wood Joist/Rafter Layer, Batt Insulation",
+                "thickness_mm": 70.0,
+                "matches": {
+                    "match_1": {
+                        "material_name": "Wood structure internal - non load bearing wall Batt Insulation Isover formstyker 37, 300mm",
+                        "similarity_score": 0.5547
+                    },
+                    "match_2": {
+                        "material_name": "External walls Batt Insulation Isover formstyker 37, 300mm",
+                        "similarity_score": 0.3536
+                    },
+                    "match_3": {
+                        "material_name": "Wood structure internal - non load bearing wall construction wood Konstruktionstr\u00e6 af fyr og gran, savede og t\u00f8rrede",
+                        "similarity_score": 0.3273
+                    },
+                    "match_4": {
+                        "material_name": "Wood structure internal - non load bearing wall Paint Flugger PRO 5",
+                        "similarity_score": 0.3162
+                    },
+                    "match_5": {
+                        "material_name": "Wood structure internal - non load bearing wall Gypsum board Gyproc Climate",
+                        "similarity_score": 0.3015
+                    }
+                },
+                "material_layer_chosen": "Wood structure internal - non load bearing wall Batt Insulation Isover formstyker 37, 300mm"
+            },
+            {
+                "material_layer": "Gypsum Wall Board",
+                "thickness_mm": 12.5,
+                "matches": {
+                    "match_1": {
+                        "material_name": "Wood structure internal - non load bearing wall Gypsum board Gyproc Climate",
+                        "similarity_score": 0.5222
+                    },
+                    "match_2": {
+                        "material_name": "External walls Gypsum board Gyproc Climate",
+                        "similarity_score": 0.4714
+                    },
+                    "match_3": {
+                        "material_name": "External walls Fiber cement board Windstopper extreme",
+                        "similarity_score": 0.2182
+                    },
+                    "match_4": {
+                        "material_name": "External walls Fiber cement board Swisspearl Deco",
+                        "similarity_score": 0.2182
+                    },
+                    "match_5": {
+                        "material_name": "Wood structure internal - non load bearing wall Paint Flugger PRO 5",
+                        "similarity_score": 0.1826
+                    }
+                },
+                "material_layer_chosen": "Wood structure internal - non load bearing wall Gypsum board Gyproc Climate"
+            },
+            {
+                "material_layer": "Gypsum Wall Board",
+                "thickness_mm": 12.5,
+                "matches": {
+                    "match_1": {
+                        "material_name": "Wood structure internal - non load bearing wall Gypsum board Gyproc Climate",
+                        "similarity_score": 0.5222
+                    },
+                    "match_2": {
+                        "material_name": "External walls Gypsum board Gyproc Climate",
+                        "similarity_score": 0.4714
+                    },
+                    "match_3": {
+                        "material_name": "External walls Fiber cement board Windstopper extreme",
+                        "similarity_score": 0.2182
+                    },
+                    "match_4": {
+                        "material_name": "External walls Fiber cement board Swisspearl Deco",
+                        "similarity_score": 0.2182
+                    },
+                    "match_5": {
+                        "material_name": "Wood structure internal - non load bearing wall Paint Flugger PRO 5",
+                        "similarity_score": 0.1826
+                    }
+                },
+                "material_layer_chosen": "Wood structure internal - non load bearing wall Gypsum board Gyproc Climate"
+            },
+            {
+                "material_layer": "Clad - White",
+                "thickness_mm": 1.0,
+                "matches": {
+                    "match_1": {
+                        "material_name": "External walls Primer Overflade, facademaling, grundere, silikat",
+                        "similarity_score": 0.0
+                    },
+                    "match_2": {
+                        "material_name": "External walls Gypsum board Gyproc Climate",
+                        "similarity_score": 0.0
+                    },
+                    "match_3": {
+                        "material_name": "External walls Batt Insulation Isover formstyker 37, 300mm",
+                        "similarity_score": 0.0
+                    },
+                    "match_4": {
+                        "material_name": "External walls Construction wood Konstruktionstr\u00e6 af fyr og gran, savede og t\u00f8rrede",
+                        "similarity_score": 0.0
+                    },
+                    "match_5": {
+                        "material_name": "External walls Fiber cement board Windstopper extreme",
+                        "similarity_score": 0.0
+                    }
+                },
+                "material_layer_chosen": "External walls Primer Overflade, facademaling, grundere, silikat"
+            }
+        ]
+    },
+    {
+        "wall_type": "Basic Wall:ARC - Ext. Wall - 177mm",
+        "wall_id": 388102,
+        "area_m2": 237.9407999999994,
+        "material_layers": [
+            {
+                "material_layer": "Tiles 52_1",
+                "thickness_mm": 8.0,
+                "matches": {
+                    "match_1": {
+                        "material_name": "External walls Primer Overflade, facademaling, grundere, silikat",
+                        "similarity_score": 0.0
+                    },
+                    "match_2": {
+                        "material_name": "External walls Gypsum board Gyproc Climate",
+                        "similarity_score": 0.0
+                    },
+                    "match_3": {
+                        "material_name": "External walls Batt Insulation Isover formstyker 37, 300mm",
+                        "similarity_score": 0.0
+                    },
+                    "match_4": {
+                        "material_name": "External walls Construction wood Konstruktionstr\u00e6 af fyr og gran, savede og t\u00f8rrede",
+                        "similarity_score": 0.0
+                    },
+                    "match_5": {
+                        "material_name": "External walls Fiber cement board Windstopper extreme",
+                        "similarity_score": 0.0
+                    }
+                },
+                "material_layer_chosen": "External walls Primer Overflade, facademaling, grundere, silikat"
+            },
+            {
+                "material_layer": "Structure, Steel Bar Joist Layer",
+                "thickness_mm": 10.0,
+                "matches": {
+                    "match_1": {
+                        "material_name": "External walls steel frame st\u00e5l, valsede profiler og plader",
+                        "similarity_score": 0.2357
+                    },
+                    "match_2": {
+                        "material_name": "Wood structure internal - non load bearing wall Paint Flugger PRO 5",
+                        "similarity_score": 0.2236
+                    },
+                    "match_3": {
+                        "material_name": "Wood structure internal - non load bearing wall Gypsum board Gyproc Climate",
+                        "similarity_score": 0.2132
+                    },
+                    "match_4": {
+                        "material_name": "Wood structure internal - non load bearing wall primer Overflade, facademaling, grundere, silikat",
+                        "similarity_score": 0.2041
+                    },
+                    "match_5": {
+                        "material_name": "Wood structure internal - non load bearing wall Batt Insulation Isover formstyker 37, 300mm",
+                        "similarity_score": 0.1961
+                    }
+                },
+                "material_layer_chosen": "External walls steel frame st\u00e5l, valsede profiler og plader"
+            },
+            {
+                "material_layer": "Concrete - Precast Concrete",
+                "thickness_mm": 9.0,
+                "matches": {
+                    "match_1": {
+                        "material_name": "Basement internal walls Precast concrete Beton v\u00e6gelementer, 20 cm tyk",
+                        "similarity_score": 0.4243
+                    },
+                    "match_2": {
+                        "material_name": "Core load bearing internal walls Precast concrete Beton v\u00e6gelementer, 20 cm tyk",
+                        "similarity_score": 0.3873
+                    },
+                    "match_3": {
+                        "material_name": "External walls Primer Overflade, facademaling, grundere, silikat",
+                        "similarity_score": 0.0
+                    },
+                    "match_4": {
+                        "material_name": "External walls Gypsum board Gyproc Climate",
+                        "similarity_score": 0.0
+                    },
+                    "match_5": {
+                        "material_name": "External walls Batt Insulation Isover formstyker 37, 300mm",
+                        "similarity_score": 0.0
+                    }
+                },
+                "material_layer_chosen": "Basement internal walls Precast concrete Beton v\u00e6gelementer, 20 cm tyk"
+            },
+            {
+                "material_layer": "Structure, Wood Joist/Rafter Layer, Batt Insulation",
+                "thickness_mm": 150.0,
+                "matches": {
+                    "match_1": {
+                        "material_name": "Wood structure internal - non load bearing wall Batt Insulation Isover formstyker 37, 300mm",
+                        "similarity_score": 0.5547
+                    },
+                    "match_2": {
+                        "material_name": "External walls Batt Insulation Isover formstyker 37, 300mm",
+                        "similarity_score": 0.3536
+                    },
+                    "match_3": {
+                        "material_name": "Wood structure internal - non load bearing wall construction wood Konstruktionstr\u00e6 af fyr og gran, savede og t\u00f8rrede",
+                        "similarity_score": 0.3273
+                    },
+                    "match_4": {
+                        "material_name": "Wood structure internal - non load bearing wall Paint Flugger PRO 5",
+                        "similarity_score": 0.3162
+                    },
+                    "match_5": {
+                        "material_name": "Wood structure internal - non load bearing wall Gypsum board Gyproc Climate",
+                        "similarity_score": 0.3015
+                    }
+                },
+                "material_layer_chosen": "Wood structure internal - non load bearing wall Batt Insulation Isover formstyker 37, 300mm"
+            }
+        ]
+    },
+    {
+        "wall_type": "Basic Wall:Interior wall - glass",
+        "wall_id": 579827,
+        "area_m2": 145.9463639672935,
+        "material_layers": [
+            {
+                "material_layer": "Glass, Clear Glazing",
+                "thickness_mm": 70.0,
+                "matches": {
+                    "match_1": {
+                        "material_name": "Internal glass walls glass Glas 4mm",
+                        "similarity_score": 0.7071
+                    },
+                    "match_2": {
+                        "material_name": "Internal glass walls aluminum profile aluminiumsprofil",
+                        "similarity_score": 0.4082
+                    },
+                    "match_3": {
+                        "material_name": "Internal glass walls EPDM rubber EPDM-t\u00e6tning til aluminiumsprofil",
+                        "similarity_score": 0.3015
+                    },
+                    "match_4": {
+                        "material_name": "External walls Primer Overflade, facademaling, grundere, silikat",
+                        "similarity_score": 0.0
+                    },
+                    "match_5": {
+                        "material_name": "External walls Gypsum board Gyproc Climate",
+                        "similarity_score": 0.0
+                    }
+                },
+                "material_layer_chosen": "Internal glass walls glass Glas 4mm"
+            }
+        ]
+    },
+    {
+        "wall_type": "Basic Wall:ARCH - Concrete - 100mm",
+        "wall_id": 583063,
+        "area_m2": 197.7780000000004,
+        "material_layers": [
+            {
+                "material_layer": "Concrete, Cast-in-Place gray",
+                "thickness_mm": 100.0,
+                "matches": {
+                    "match_1": {
+                        "material_name": "Basement internal walls Precast concrete Beton v\u00e6gelementer, 20 cm tyk",
+                        "similarity_score": 0.3162
+                    },
+                    "match_2": {
+                        "material_name": "Core load bearing internal walls Precast concrete Beton v\u00e6gelementer, 20 cm tyk",
+                        "similarity_score": 0.2887
+                    },
+                    "match_3": {
+                        "material_name": "External walls Primer Overflade, facademaling, grundere, silikat",
+                        "similarity_score": 0.0
+                    },
+                    "match_4": {
+                        "material_name": "External walls Gypsum board Gyproc Climate",
+                        "similarity_score": 0.0
+                    },
+                    "match_5": {
+                        "material_name": "External walls Batt Insulation Isover formstyker 37, 300mm",
+                        "similarity_score": 0.0
+                    }
+                },
+                "material_layer_chosen": "Basement internal walls Precast concrete Beton v\u00e6gelementer, 20 cm tyk"
+            }
+        ]
+    },
+    {
+        "wall_type": "Basic Wall:EXT - Concrete/Insulation - 450mm",
+        "wall_id": 1302401,
+        "area_m2": 1137.07433932557,
+        "material_layers": [
+            {
+                "material_layer": "Rigid insulation",
+                "thickness_mm": 350.0,
+                "matches": {
+                    "match_1": {
+                        "material_name": "External walls Batt Insulation Isover formstyker 37, 300mm",
+                        "similarity_score": 0.3536
+                    },
+                    "match_2": {
+                        "material_name": "Wood structure internal - non load bearing wall Batt Insulation Isover formstyker 37, 300mm",
+                        "similarity_score": 0.2774
+                    },
+                    "match_3": {
+                        "material_name": "External walls Primer Overflade, facademaling, grundere, silikat",
+                        "similarity_score": 0.0
+                    },
+                    "match_4": {
+                        "material_name": "External walls Gypsum board Gyproc Climate",
+                        "similarity_score": 0.0
+                    },
+                    "match_5": {
+                        "material_name": "External walls Construction wood Konstruktionstr\u00e6 af fyr og gran, savede og t\u00f8rrede",
+                        "similarity_score": 0.0
+                    }
+                },
+                "material_layer_chosen": "External walls Batt Insulation Isover formstyker 37, 300mm"
+            },
+            {
+                "material_layer": "Concrete - Cast-in-Place Concrete",
+                "thickness_mm": 100.0,
+                "matches": {
+                    "match_1": {
+                        "material_name": "Basement internal walls Precast concrete Beton v\u00e6gelementer, 20 cm tyk",
+                        "similarity_score": 0.3162
+                    },
+                    "match_2": {
+                        "material_name": "Core load bearing internal walls Precast concrete Beton v\u00e6gelementer, 20 cm tyk",
+                        "similarity_score": 0.2887
+                    },
+                    "match_3": {
+                        "material_name": "External walls Primer Overflade, facademaling, grundere, silikat",
+                        "similarity_score": 0.0
+                    },
+                    "match_4": {
+                        "material_name": "External walls Gypsum board Gyproc Climate",
+                        "similarity_score": 0.0
+                    },
+                    "match_5": {
+                        "material_name": "External walls Batt Insulation Isover formstyker 37, 300mm",
+                        "similarity_score": 0.0
+                    }
+                },
+                "material_layer_chosen": "Basement internal walls Precast concrete Beton v\u00e6gelementer, 20 cm tyk"
+            }
+        ]
+    },
+    {
+        "wall_type": "Basic Wall:ARC - Ext. Wall Roof - 352mm",
+        "wall_id": 1320384,
+        "area_m2": 0.0,
+        "material_layers": [
+            {
+                "material_layer": "Tiles 52_1",
+                "thickness_mm": 8.0,
+                "matches": {
+                    "match_1": {
+                        "material_name": "External walls Primer Overflade, facademaling, grundere, silikat",
+                        "similarity_score": 0.0
+                    },
+                    "match_2": {
+                        "material_name": "External walls Gypsum board Gyproc Climate",
+                        "similarity_score": 0.0
+                    },
+                    "match_3": {
+                        "material_name": "External walls Batt Insulation Isover formstyker 37, 300mm",
+                        "similarity_score": 0.0
+                    },
+                    "match_4": {
+                        "material_name": "External walls Construction wood Konstruktionstr\u00e6 af fyr og gran, savede og t\u00f8rrede",
+                        "similarity_score": 0.0
+                    },
+                    "match_5": {
+                        "material_name": "External walls Fiber cement board Windstopper extreme",
+                        "similarity_score": 0.0
+                    }
+                },
+                "material_layer_chosen": "External walls Primer Overflade, facademaling, grundere, silikat"
+            },
+            {
+                "material_layer": "Structure, Steel Bar Joist Layer",
+                "thickness_mm": 10.0,
+                "matches": {
+                    "match_1": {
+                        "material_name": "External walls steel frame st\u00e5l, valsede profiler og plader",
+                        "similarity_score": 0.2357
+                    },
+                    "match_2": {
+                        "material_name": "Wood structure internal - non load bearing wall Paint Flugger PRO 5",
+                        "similarity_score": 0.2236
+                    },
+                    "match_3": {
+                        "material_name": "Wood structure internal - non load bearing wall Gypsum board Gyproc Climate",
+                        "similarity_score": 0.2132
+                    },
+                    "match_4": {
+                        "material_name": "Wood structure internal - non load bearing wall primer Overflade, facademaling, grundere, silikat",
+                        "similarity_score": 0.2041
+                    },
+                    "match_5": {
+                        "material_name": "Wood structure internal - non load bearing wall Batt Insulation Isover formstyker 37, 300mm",
+                        "similarity_score": 0.1961
+                    }
+                },
+                "material_layer_chosen": "External walls steel frame st\u00e5l, valsede profiler og plader"
+            },
+            {
+                "material_layer": "Concrete - Precast Concrete",
+                "thickness_mm": 9.0,
+                "matches": {
+                    "match_1": {
+                        "material_name": "Basement internal walls Precast concrete Beton v\u00e6gelementer, 20 cm tyk",
+                        "similarity_score": 0.4243
+                    },
+                    "match_2": {
+                        "material_name": "Core load bearing internal walls Precast concrete Beton v\u00e6gelementer, 20 cm tyk",
+                        "similarity_score": 0.3873
+                    },
+                    "match_3": {
+                        "material_name": "External walls Primer Overflade, facademaling, grundere, silikat",
+                        "similarity_score": 0.0
+                    },
+                    "match_4": {
+                        "material_name": "External walls Gypsum board Gyproc Climate",
+                        "similarity_score": 0.0
+                    },
+                    "match_5": {
+                        "material_name": "External walls Batt Insulation Isover formstyker 37, 300mm",
+                        "similarity_score": 0.0
+                    }
+                },
+                "material_layer_chosen": "Basement internal walls Precast concrete Beton v\u00e6gelementer, 20 cm tyk"
+            },
+            {
+                "material_layer": "Structure, Wood Joist/Rafter Layer, Batt Insulation",
+                "thickness_mm": 300.0,
+                "matches": {
+                    "match_1": {
+                        "material_name": "Wood structure internal - non load bearing wall Batt Insulation Isover formstyker 37, 300mm",
+                        "similarity_score": 0.5547
+                    },
+                    "match_2": {
+                        "material_name": "External walls Batt Insulation Isover formstyker 37, 300mm",
+                        "similarity_score": 0.3536
+                    },
+                    "match_3": {
+                        "material_name": "Wood structure internal - non load bearing wall construction wood Konstruktionstr\u00e6 af fyr og gran, savede og t\u00f8rrede",
+                        "similarity_score": 0.3273
+                    },
+                    "match_4": {
+                        "material_name": "Wood structure internal - non load bearing wall Paint Flugger PRO 5",
+                        "similarity_score": 0.3162
+                    },
+                    "match_5": {
+                        "material_name": "Wood structure internal - non load bearing wall Gypsum board Gyproc Climate",
+                        "similarity_score": 0.3015
+                    }
+                },
+                "material_layer_chosen": "Wood structure internal - non load bearing wall Batt Insulation Isover formstyker 37, 300mm"
+            },
+            {
+                "material_layer": "Tiles 52_1",
+                "thickness_mm": 8.0,
+                "matches": {
+                    "match_1": {
+                        "material_name": "External walls Primer Overflade, facademaling, grundere, silikat",
+                        "similarity_score": 0.0
+                    },
+                    "match_2": {
+                        "material_name": "External walls Gypsum board Gyproc Climate",
+                        "similarity_score": 0.0
+                    },
+                    "match_3": {
+                        "material_name": "External walls Batt Insulation Isover formstyker 37, 300mm",
+                        "similarity_score": 0.0
+                    },
+                    "match_4": {
+                        "material_name": "External walls Construction wood Konstruktionstr\u00e6 af fyr og gran, savede og t\u00f8rrede",
+                        "similarity_score": 0.0
+                    },
+                    "match_5": {
+                        "material_name": "External walls Fiber cement board Windstopper extreme",
+                        "similarity_score": 0.0
+                    }
+                },
+                "material_layer_chosen": "External walls Primer Overflade, facademaling, grundere, silikat"
+            }
+        ]
+    },
+    {
+        "wall_type": "Basic Wall:ARC - Ext. Wall (fix for doors in facade) - 352mm",
+        "wall_id": 1335256,
+        "area_m2": 112.59779999997126,
+        "material_layers": [
+            {
+                "material_layer": "Concrete Panels 02",
+                "thickness_mm": 8.0,
+                "matches": {
+                    "match_1": {
+                        "material_name": "Basement internal walls Precast concrete Beton v\u00e6gelementer, 20 cm tyk",
+                        "similarity_score": 0.3162
+                    },
+                    "match_2": {
+                        "material_name": "Core load bearing internal walls Precast concrete Beton v\u00e6gelementer, 20 cm tyk",
+                        "similarity_score": 0.2887
+                    },
+                    "match_3": {
+                        "material_name": "External walls Primer Overflade, facademaling, grundere, silikat",
+                        "similarity_score": 0.0
+                    },
+                    "match_4": {
+                        "material_name": "External walls Gypsum board Gyproc Climate",
+                        "similarity_score": 0.0
+                    },
+                    "match_5": {
+                        "material_name": "External walls Batt Insulation Isover formstyker 37, 300mm",
+                        "similarity_score": 0.0
+                    }
+                },
+                "material_layer_chosen": "Basement internal walls Precast concrete Beton v\u00e6gelementer, 20 cm tyk"
+            },
+            {
+                "material_layer": "Structure, Steel Bar Joist Layer",
+                "thickness_mm": 10.0,
+                "matches": {
+                    "match_1": {
+                        "material_name": "External walls steel frame st\u00e5l, valsede profiler og plader",
+                        "similarity_score": 0.2357
+                    },
+                    "match_2": {
+                        "material_name": "Wood structure internal - non load bearing wall Paint Flugger PRO 5",
+                        "similarity_score": 0.2236
+                    },
+                    "match_3": {
+                        "material_name": "Wood structure internal - non load bearing wall Gypsum board Gyproc Climate",
+                        "similarity_score": 0.2132
+                    },
+                    "match_4": {
+                        "material_name": "Wood structure internal - non load bearing wall primer Overflade, facademaling, grundere, silikat",
+                        "similarity_score": 0.2041
+                    },
+                    "match_5": {
+                        "material_name": "Wood structure internal - non load bearing wall Batt Insulation Isover formstyker 37, 300mm",
+                        "similarity_score": 0.1961
+                    }
+                },
+                "material_layer_chosen": "External walls steel frame st\u00e5l, valsede profiler og plader"
+            },
+            {
+                "material_layer": "Concrete - Precast Concrete",
+                "thickness_mm": 9.0,
+                "matches": {
+                    "match_1": {
+                        "material_name": "Basement internal walls Precast concrete Beton v\u00e6gelementer, 20 cm tyk",
+                        "similarity_score": 0.4243
+                    },
+                    "match_2": {
+                        "material_name": "Core load bearing internal walls Precast concrete Beton v\u00e6gelementer, 20 cm tyk",
+                        "similarity_score": 0.3873
+                    },
+                    "match_3": {
+                        "material_name": "External walls Primer Overflade, facademaling, grundere, silikat",
+                        "similarity_score": 0.0
+                    },
+                    "match_4": {
+                        "material_name": "External walls Gypsum board Gyproc Climate",
+                        "similarity_score": 0.0
+                    },
+                    "match_5": {
+                        "material_name": "External walls Batt Insulation Isover formstyker 37, 300mm",
+                        "similarity_score": 0.0
+                    }
+                },
+                "material_layer_chosen": "Basement internal walls Precast concrete Beton v\u00e6gelementer, 20 cm tyk"
+            },
+            {
+                "material_layer": "Structure, Wood Joist/Rafter Layer, Batt Insulation",
+                "thickness_mm": 300.0,
+                "matches": {
+                    "match_1": {
+                        "material_name": "Wood structure internal - non load bearing wall Batt Insulation Isover formstyker 37, 300mm",
+                        "similarity_score": 0.5547
+                    },
+                    "match_2": {
+                        "material_name": "External walls Batt Insulation Isover formstyker 37, 300mm",
+                        "similarity_score": 0.3536
+                    },
+                    "match_3": {
+                        "material_name": "Wood structure internal - non load bearing wall construction wood Konstruktionstr\u00e6 af fyr og gran, savede og t\u00f8rrede",
+                        "similarity_score": 0.3273
+                    },
+                    "match_4": {
+                        "material_name": "Wood structure internal - non load bearing wall Paint Flugger PRO 5",
+                        "similarity_score": 0.3162
+                    },
+                    "match_5": {
+                        "material_name": "Wood structure internal - non load bearing wall Gypsum board Gyproc Climate",
+                        "similarity_score": 0.3015
+                    }
+                },
+                "material_layer_chosen": "Wood structure internal - non load bearing wall Batt Insulation Isover formstyker 37, 300mm"
+            },
+            {
+                "material_layer": "Plaster 01",
+                "thickness_mm": 25.0,
+                "matches": {
+                    "match_1": {
+                        "material_name": "External walls Primer Overflade, facademaling, grundere, silikat",
+                        "similarity_score": 0.0
+                    },
+                    "match_2": {
+                        "material_name": "External walls Gypsum board Gyproc Climate",
+                        "similarity_score": 0.0
+                    },
+                    "match_3": {
+                        "material_name": "External walls Batt Insulation Isover formstyker 37, 300mm",
+                        "similarity_score": 0.0
+                    },
+                    "match_4": {
+                        "material_name": "External walls Construction wood Konstruktionstr\u00e6 af fyr og gran, savede og t\u00f8rrede",
+                        "similarity_score": 0.0
+                    },
+                    "match_5": {
+                        "material_name": "External walls Fiber cement board Windstopper extreme",
+                        "similarity_score": 0.0
+                    }
+                },
+                "material_layer_chosen": "External walls Primer Overflade, facademaling, grundere, silikat"
+            }
+        ]
+    }
+]
