@@ -27,6 +27,7 @@ In principle the imported Ifc data will be able to be matched with any environme
 ### About the tool
 
 We aim to be able to solve the following steps with our tool:
+
 - [ ] Importing an environmental data set. For this tool it's an excel file containaing environmental data, but it could be other environmental data repositories or EPDs, depending on th processing power and data libraries available. This is used to create the document matrix in the BoW analysis using the words in the excel rows.
 - [ ] Extracting MaterialLayers and the quantities from an Ifc file. Then cross referencing the words with in hte material layers with the BoW to create some new query vectors. 
 - [ ] Using the query vector the cosine simularity is calculated for all materials in the document matrix and the top 5 are suggested.
@@ -35,35 +36,56 @@ We aim to be able to solve the following steps with our tool:
 
 ### Description of the tool
 
-The tool is a new suggetion to use Bag of Words (BoW) to match up environmental data and quantaties from a 
+The tool is a new suggetion on how to match up environmental data and quantaties of material layers from an ifc model using Bag of Words (BoW). 
+The eaxmple that this exact tool solves is matching env. data from a spreadsheet, which the group made, with the information available in the ifcmodel on walls.
+The tools effectiveness in matching words were therfore found to be limited by:  
+- [ ] Words joint together by eg. "/".
+- [ ] Mix in languages (Danish and English).
+- [ ] Different units used eg. cm/mm/m.
+
+The tool relies a lot on the data used to create the document matrix and the query vectors and terefore the tool is quite dependend on this. However the tool, still helps a lot in matching the materials compared to exact material matching and make quite qualified guesses. On a lot of materials and can work quite flexibly. For instance if costumized mixed material layers are used. 
 
 ### Software requirements to run this tool  
 
 In order to be able to run this tool we expect the following software to be required:  
 1. [X] Python 3.10-12 (needed to run the script)
-2.  [X] IfcOpenShell (for ifc work)
-3.   [X] Numpy (for matrix work)
-4.    [X] Pandas (for JSON work)
-2. [X] (Microsoft package - Excel (used as environmental data file, could be any software))
+2. [X] IfcOpenShell (for ifc work)
+3. [X] Numpy (for matrix work)
+4. [X] Pandas (for JSON work)
+5. [X] (Microsoft package - Excel (used as environmental data file, could be any software))
+
    
 ### Advanced Building Design
 
 When it comes to usability in the course "Advanced Building Design", we propose that this tool could be used both in the early design stage (A) and during the end when the total environmental cost of the building needs to be calculated (D).
+
 For the early design stage, the disciplines such as ARC and STR, could use this tool to initially figure out how much of an impact a certain material choice is going to have. They could for example propose scenarios with different material choices, and then the rest of the team would have a more clear idea on the impacts that these choice will have later in the design phase.
+
 For the total environmental cost of the building the disciplines such as PM and ARC could use our tool to create a JSON file where the LCI is basically done automatically which will provide them time to consider which environmental data they need and which stages of the building needs to be included.
+
 We would also propose that a new discipline for the Advanced Building Course is created, a so-called sustainability analyst, that could potentially provide the abovementioned work.  
 With such a discipline we would argue that the overall design of the building would include more thoughts on the environmental impact, ultimately reducing the GWP and meeting the Building Regulations requirements of a max CO2 emission of 12 kgCO2eq/m2/year. But potentially even meeting the Reduction Roadmap's ambitions to reduce the impact even more in trying to meet the Planetary Boundaries.
 
+On a higher level, it is hopefully  a tool that brings more awareness to, what information is included in the model.
 
 
 
 ## 03. Further development for this tool:
+
+
+
+
 For this tool to be more user-friendly it is proposed that an implementation of two things happens.  
 1. The ability to choose whether the output of the Ifc quantity should be stated as an area or a volume.  
    - This will secure that the match of Ifc data and Environmental data is using the same unit.
 3. The ability to choose whether to match "x" (IfcMaterialLayer) or "y" (IfcMaterialLayer) to "a" (environmental unit) or "b" (environmental unit).  
    - With this implementation the user is now able to match the data by clicking on chosen (by the script) names. This will give the tool a higher accuracy in matching the correct data.
+   
+4. it would also be interesting to look if weightening of the different categories would lead to more precise results. 
 
+
+on another level: 
+Extending the dookument matrix across multiple project or databases could result in a quite strong search abillity and a more precise tool. Also, if eg. dimensions and entity type of the buildings were realated to this data, a macine leaning perspective could be to develop a model, which assigned/suggested materials to the building entities.
 
 ## 04. An IDS:
 Produce an IDS to check that the model can be run by your tool.
