@@ -2,15 +2,20 @@
 
 ## 01. The IFC model
 The IFC model used for developing this script is from the course Advanced Building Design course group #2406.
-We are using the ARC IFC file in order to find alle the IfcEntities' MaterialLayers and their corresponding quantities. These findings will be matched with the environmental data provided by group #2406 PM appendix B to both fact check their results as well as having an easy access to environmental data for our tool.
+
+We are using the ARC IFC to extract data from an ifcEntity to get data about MaterialLayers and their corresponding quantities. The entitiy  has been walls in our eample, but we belive the overall method can be apllied for most entities. The tool aims to solve part of the sollution of matching material quantities from a model, with the materials environmental data such as GWP and life time using Bag of Word (BoW). 
+
 
 ## 02. Assignment 3 - use case analysis :
 The work done for Assignment 3 has been built on top of the work provided in Assignments 1 and 2, although some considerable modifications has been made.
 
 The following list will explain some major changes for the tool:
-- **Less ambitious:** Because of the limitations of our python skills as well as the deadline set by the course responsible, the ambition on creating a tool that can include all IfcEntities and calculate the environmental impact has been reduced to a single entity.
+- **Less ambitious:** the tool was initially quite broad. and in our research and in dialouge with the course responible, we found other solutions to already have been solved and directed our focus on matching. Because of the limitations of our python skills as well as the deadline set by the course responsible, the ambition on creating a tool that can include all IfcEntities and calculate the environmental impact has been reduced to a single entity.
+
 - **Single and simple entity IfcWallStandard**: This change is because of the limitations explained above, we would rather show a completed example of one entity than half a solution for all entities.
+  
 - **User friendly:** In order for this tool to be applicable for others and not be too time consuming, to change, to fit their own use case, an explanation in section "Further Development for this tool" will be presented.
+  
 
 ### State where you found that problem
 We found the environmental data from PM appendix #2406 and used that information to double check whether the results of our tool are close to the list they've done with the LCI for LCA.  
@@ -22,26 +27,25 @@ In principle the imported Ifc data will be able to be matched with any environme
 ### About the tool
 
 We aim to be able to solve the following steps with our tool:
-- [ ] Extracting MaterialLayers and the quantities from an Ifc file
-- [X] Importing an environmental data set. For this tool it's an excel file containaing EPD's but it could be other environmental data repositories.
-- [ ] Creating a defined matrix for both step 1 and 2.
-- [ ] Predefine search queues for the tool to match up the Ifc data with Environmental data
-- [ ] Calculate the impact per MaterialLayer
-- [ ] Be able to do it for all IfcEntities in an Ifc file  
+- [ ] Importing an environmental data set. For this tool it's an excel file containaing environmental data, but it could be other environmental data repositories or EPDs, depending on th processing power and data libraries available. This is used to create the document matrix in the BoW analysis using the words in the excel rows.
+- [ ] Extracting MaterialLayers and the quantities from an Ifc file. Then cross referencing the words with in hte material layers with the BoW to create some new query vectors. 
+- [ ] Using the query vector the cosine simularity is calculated for all materials in the document matrix and the top 5 are suggested.
+- [ ] The simularity scores are the eported to a json file, where each layer in the wall is displayed. 
+- [ ] Here the user has a possibility to control if it is correctly matched before potentially eporting it into a LCAx JSON format and doing the calculation (We have not made a script for this last part) 
 
 ### Description of the tool
 
-instructions to run the tool.
+The tool is a new suggetion to use Bag of Words (BoW) to match up environmental data and quantaties from a 
 
 ### Software requirements to run this tool  
 
 In order to be able to run this tool we expect the following software to be required:  
 1. [X] Python 3.10-12 (needed to run the script)
-2. [X] Microsoft package - Excel (used as environmental data file, could be any software)
-3. [X] IfcOpenShell (for ifc work)
-4. [X] Numpy (for matrix work)
-5. [X] Pandas (for JSON work)
-
+2.  [X] IfcOpenShell (for ifc work)
+3.   [X] Numpy (for matrix work)
+4.    [X] Pandas (for JSON work)
+2. [X] (Microsoft package - Excel (used as environmental data file, could be any software))
+   
 ### Advanced Building Design
 
 When it comes to usability in the course "Advanced Building Design", we propose that this tool could be used both in the early design stage (A) and during the end when the total environmental cost of the building needs to be calculated (D).
