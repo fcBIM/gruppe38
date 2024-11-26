@@ -27,8 +27,9 @@ df_selected = df.iloc[:, [1, 2, 4]]
 # Convert the DataFrame into a matrix (NumPy array) and then to a list
 matrix_selected = df_selected.to_numpy().tolist()
 
+
 '''
-    IFC file import (code adapted from https://github.com/timmcginley/)
+    Source - IFC file import (code adapted from https://github.com/timmcginley/)
 '''
 name = '/Users/fredemollegaard/Desktop/Adv.BIM/CES_BLD_24_06_ARC'
 
