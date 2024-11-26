@@ -15,6 +15,7 @@ The following list will explain some major changes for the tool:
 - **Single and simple entity IfcWallStandard**: This change is because of the limitations explained above, we would rather show a completed example of one entity than half a solution for all entities.
   
 - **User friendly:** In order for this tool to be applicable for others and not be too time consuming, to change, to fit their own use case, an explanation in section "Further Development for this tool" will be presented.
+- **High error rate:** Given the data in this example approximately 1/3 of the materials doesn't get a relevant match. However this clearly has to the flaws in the used data, which is described later in the section. "Description of the tool"
   
 
 ### State where you found that problem
