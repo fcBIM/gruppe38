@@ -7,6 +7,8 @@ from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import json
 
+
+# --- initial data load and preparation for BoW (env. data and ifc)---
 # Load the Excel file
 file_path_xl = '/Users/fredemollegaard/Desktop/Adv.BIM/Excel_EPD_Data.xlsx'  # Insert the correct file path
 
@@ -19,10 +21,8 @@ df.columns = df.columns.str.lower()
 # Remove the first row
 df = df.iloc[1:]
 
-# Select only the 2nd (index 1), 3rd (index 2), and 5th (index 4) columns
+# Select only the 2nd (index 1), 3rd (index 2), and 5th (index 4) columns (selected since they select releveant information)
 df_selected = df.iloc[:, [1, 2, 4]]
-
-df_backup = df.iloc[:, [1, 2, 3, 4, 5, 6, 7]]
 
 # Convert the DataFrame into a matrix (NumPy array) and then to a list
 matrix_selected = df_selected.to_numpy().tolist()
@@ -50,6 +50,8 @@ wall_type_areas = {}
 for wall_type in wall_types:
     wall_type_areas[wall_type.id()] = {'name': wall_type.Name, 'area': 0.0, 'material_layers': []}
 
+# Can be replaced with classical area, volume, or amount/number of ... 
+# Wall standard wall area fuction was not possible to use and should be used if possible. This area function has proven unprecise and varries from the results that the group has made.  
 # Function to calculate the area of an IfcWall instance (convert from mm² to m²)
 def calculate_wall_area(wall):
     if wall.Representation:
@@ -106,12 +108,19 @@ def create_bow_matrix(df_selected):
 # Create the BoW matrix
 bow_df, vectorizer = create_bow_matrix(df_selected)
 
+# Print Document Matrix(main purpose is for slides)
+print("Document matrix of env. data:")
+print(bow_df)
+print(np.size(bow_df))
+
 # --- Step 2 (Revised): Create Query Vectors for Individual Material Layers ---
 def create_query_vector_for_layer(material_layer, vectorizer):
     material, thickness = material_layer
     query_string = f"{material} {thickness}"  # Create a query string for individual material layer
     query_vector = vectorizer.transform([query_string]).toarray()[0]  # Convert to vector using BoW
     return query_vector
+
+
 
 # --- Step 3 (Revised): Perform Cosine Similarity Check for Individual Layers ---
 def compute_similarity_for_layer(bow_df, query_vector):
@@ -131,11 +140,12 @@ for wall_type_id, data in wall_type_areas.items():
         "area_m2": data['area'],
         "material_layers": []
     }
-
+    print("Query Vectors per wall:")
     # Loop through each material layer in the wall type
     for material_layer in data['material_layers']:
         material, thickness = material_layer
         query_vector = create_query_vector_for_layer(material_layer, vectorizer)  # Get query vector for this layer
+        print(query_vector)
         similarity_scores = compute_similarity_for_layer(bow_df, query_vector)  # Get similarity scores
 
         # Gather matches for this material layer
@@ -164,7 +174,5 @@ output_file = 'wall_material_matches.json'
 with open(output_file, 'w') as f:
     json.dump(output_data, f, indent=4)
 
+
 print(f"\nData has been exported to {output_file}")
-
-
-
