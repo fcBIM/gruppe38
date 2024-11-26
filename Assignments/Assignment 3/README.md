@@ -84,8 +84,9 @@ For this tool to be more user-friendly it is proposed that an implementation of 
 4. it would also be interesting to look if weightening of the different categories would lead to more precise results. 
 
 
-on another level: 
+On another level: 
 Extending the dookument matrix across multiple project or databases could result in a quite strong search abillity and a more precise tool. Also, if eg. dimensions and entity type of the buildings were realated to this data, a macine leaning perspective could be to develop a model, which assigned/suggested materials to the building entities.
+
 
 ## 04. An IDS:
 Produce an IDS to check that the model can be run by your tool.
