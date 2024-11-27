@@ -29,11 +29,11 @@ In principle the imported Ifc data will be able to be matched with any environme
 
 We aim to be able to solve the following steps with our tool:
 
-- [ ] Importing an environmental data set. For this tool it's an excel file containaing environmental data, but it could be other environmental data repositories or EPDs, depending on th processing power and data libraries available. This is used to create the document matrix in the BoW analysis using the words in the excel rows.
-- [ ] Extracting MaterialLayers and the quantities from an Ifc file. Then cross referencing the words with in hte material layers with the BoW to create some new query vectors. 
-- [ ] Using the query vector the cosine simularity is calculated for all materials in the document matrix and the top 5 are suggested.
-- [ ] The simularity scores are the eported to a json file, where each layer in the wall is displayed. 
-- [ ] Here the user has a possibility to control if it is correctly matched before potentially eporting it into a LCAx JSON format and doing the calculation (We have not made a script for this last part) 
+- [X] Importing an environmental data set. For this tool it's an excel file containaing environmental data, but it could be other environmental data repositories or EPDs, depending on the processing power and data libraries available. This is used to create the document matrix in the BoW analysis using the words in the excel rows.
+- [X] Extracting MaterialLayers and the quantities from an Ifc file. Then cross referencing the words within the material layers with the BoW to create new query vectors. 
+- [X] Using the query vector the cosine simularity is calculated for all materials in the document matrix and the top 5 are suggested.
+- [X] The simularity scores are then exported to a json file, where each layer in the wall is displayed. 
+- [ ] Here the user has a possibility to control if it is correctly matched before potentially exporting it into a LCAx JSON format and doing the calculation (We have not made a script for this last part) 
 
 ### Description of the tool
 
