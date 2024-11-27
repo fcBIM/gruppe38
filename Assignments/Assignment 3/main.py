@@ -6,9 +6,8 @@ import time
 from sklearn.feature_extraction.text import CountVectorizer
 from sklearn.metrics.pairwise import cosine_similarity
 import json
+import hashlib
 
-
-# --- initial data load and preparation for BoW (env. data and ifc)---
 # Load the Excel file
 file_path_xl = '/Users/fredemollegaard/Desktop/Adv.BIM/Excel_EPD_Data.xlsx'  # Insert the correct file path
 
@@ -21,15 +20,16 @@ df.columns = df.columns.str.lower()
 # Remove the first row
 df = df.iloc[1:]
 
-# Select only the 2nd (index 1), 3rd (index 2), and 5th (index 4) columns (selected since they select releveant information)
+# Select only the 2nd (index 1), 3rd (index 2), and 5th (index 4) columns
 df_selected = df.iloc[:, [1, 2, 4]]
+
+df_backup = df.iloc[:, [1, 2, 3, 4, 5, 6, 7]]
 
 # Convert the DataFrame into a matrix (NumPy array) and then to a list
 matrix_selected = df_selected.to_numpy().tolist()
 
-
 '''
-    Source - IFC file import (code adapted from https://github.com/timmcginley/)
+    IFC file import (code adapted from https://github.com/timmcginley/)
 '''
 name = '/Users/fredemollegaard/Desktop/Adv.BIM/CES_BLD_24_06_ARC'
 
@@ -174,6 +174,22 @@ for wall_type_id, data in wall_type_areas.items():
 output_file = 'wall_material_matches.json'
 with open(output_file, 'w') as f:
     json.dump(output_data, f, indent=4)
+
+print(np.size(query_vector))
+
+
+
+
+# Hash the JSON content (without changing the rest of the script)
+def hash_json_file(file_path, algorithm='sha256'):
+    hasher = hashlib.new(algorithm)
+    with open(file_path, 'rb') as file:
+        hasher.update(file.read())  # Read the file and update the hasher
+    return hasher.hexdigest()  # Return the hex digest of the hash
+
+# Step 3: Compute and print the hash of the exported JSON file
+json_hash = hash_json_file(output_file)
+print(f"The SHA-256 hash of the JSON file is: {json_hash}")
 
 
 print(f"\nData has been exported to {output_file}")
