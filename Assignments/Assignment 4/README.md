@@ -6,6 +6,8 @@ A brief summary/description (20-40 words).
 
 This summary will be used on an overview page, featuring summaries and links for each group attending the course.
 
+Group 38 - consisting of Frede Søndergaard Møllegaard s203729 and Kasper Holst s233432
+
 Focus area: Materials / LCA / Materials / Sustainability Assessment
 
 Identification of role and role learning level that you are targeting 1,2 or 3. 
