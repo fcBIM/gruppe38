@@ -1,4 +1,4 @@
-# Automatization of matching Ifc data with Environmental data
+# Automatization of matching Ifc data with environmental data
 - Group 38 - consisting of Frede Søndergaard Møllegaard s203729 and Kasper Holst s233432
 - This tool is targeting the role level 2 - Analyst. 
 
