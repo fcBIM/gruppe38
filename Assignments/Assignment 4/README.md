@@ -1,29 +1,10 @@
-A very brief summary (make an explicit summary section in your markdown):
+# Automatization of matching Ifc data with Environmental data
+- Group 38 - consisting of Frede Søndergaard Møllegaard s203729 and Kasper Holst s233432
+- This tool is targeting the role level 2 - Analyst. 
 
-A brief but descriptive title (5-10 words).
+We have been working with the focus area materials / LCA / Materials / Sustainability Assessmentdeveloping. With this focus area we have focused on creating a script that can extract materials within a IfcMaterialLayer and match it by by creating a Bag Of Word matrix vector query to run a cosine similarity check which in the end will give the user 5 suggestions to match the specific material with material from the environmental data. This can potentially lead to an automatization on creating LCI list for the LCA.
 
-A brief summary/description (20-40 words).
 
-This summary will be used on an overview page, featuring summaries and links for each group attending the course.
 
-Group 38 - consisting of Frede Søndergaard Møllegaard s203729 and Kasper Holst s233432
-
-Focus area: Materials / LCA / Materials / Sustainability Assessment
-
-Identification of role and role learning level that you are targeting 1,2 or 3. 
-OpenBIM Roles:
-Five OpenBIM roles with their own 3 level rubric are presented in the links below:
-
-R1: OpenBIM Modeller
-
-R2: OpenBIM Analyst
-
-R3: OpenBIM Manager
-
-R4: OpenBIM Ontologist
-
-R5: OpenBIM Champion
-
-The relationship between the roles can be seen in the figure below
-
+A presentation of the use case and the tool can be found in the link below:
 https://github.com/fcBIM/gruppe38/blob/964fbfd4234c6e414f5024119a4a6fcb02be86da/Assignments/Assignment%204/Presentation%20of%20tool.pdf
