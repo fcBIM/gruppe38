@@ -46,6 +46,8 @@ The tools effectiveness in matching words were therfore found to be limited by:
 - [ ] Different units used eg. cm/mm/m.
 
 The tool relies a lot on the data used to create the document matrix and the query vectors and terefore the tool is quite dependent on this. However, the tool still helps a lot in matching the materials compared to exact material matching and make quite qualified guesses. On a lot of materials and can work quite flexibly. For instance if customized mixed material layers are used. 
+For a further look and explanation of the code follow this link:
+https://github.com/fcBIM/gruppe38/blob/24e40fc76818ce06aff1e28525f8750ffbad8e02/Assignments/Assignment%204/Presentation%20of%20tool.pdf
 
 ### Software requirements to run this tool  
 
