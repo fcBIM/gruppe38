@@ -26,4 +26,4 @@ R5: OpenBIM Champion
 
 The relationship between the roles can be seen in the figure below
 
-Assignments/Assignment 4/Presentation of tool.pdf
+
