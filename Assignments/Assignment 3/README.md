@@ -5,7 +5,7 @@ The IFC model used for developing this script is from the course Advanced Buildi
 
 We are using the model made by ARC to extract data from the ifc file. We wish to extract the ifcEntity to get data about IfcMaterialLayers and their corresponding quantities. The entitiy chosen is the walls, but we believe the overall method can be applied for all entities in an ifc model. The tool aims to solve part of the solution of matching material quantities from a model, with the materials environmental data such as GWP and life time, using Bag of Word (BoW). 
 
-## 02. Assignment 3 - use case analysis :
+## 02. Use case analysis :
 The work done for Assignment 3 has been built on top of the work from Assignments 1 and 2, although some considerable modifications has been made.
 
 The following list will explain the major changes in the tool:
