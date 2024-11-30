@@ -1,4 +1,4 @@
-# Assignment 3 Tool:
+<img width="613" alt="image" src="https://github.com/user-attachments/assets/06065be8-edc1-450c-aa49-c63d9d3ad4cd"># Assignment 3 Tool:
 
 ## 01. The IFC model
 The IFC model used for developing this script is from the course Advanced Building Design group #2406.
@@ -35,6 +35,8 @@ We aim to be able to solve the following steps with our tool:
 - [X] Using the query vector the cosine simularity is calculated for all materials in the document matrix and the top 5 matches are suggested.
 - [X] The simularity scores are then exported to a json file, where each layer in the wall is displayed. 
 - [ ] Here the user has a possibility to control if it is correctly matched before potentially exporting it into a LCAx JSON format and doing the calculation.
+
+Link to youtube video with intorduction: https://youtu.be/GlpV5v2etjg
 
 ### Description of the tool
 
