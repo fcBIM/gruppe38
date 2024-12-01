@@ -1,5 +1,5 @@
 # Automatization of matching Ifc data with environmental data
-- Course: 41934 Advanced BIM
+- Course: 41934 Advanced Building Information Modeling (BIM)
 - Group 38: consisting of Frede Søndergaard Møllegaard s203729 and Kasper Holst s233432
 - This tool is targeting the BIMrole level 2 - Analyst. 
 
