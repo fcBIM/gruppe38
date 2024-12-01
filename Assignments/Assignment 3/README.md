@@ -36,7 +36,7 @@ We aim to be able to solve the following steps with our tool:
 - [X] The simularity scores are then exported to a json file, where each layer in the wall is displayed. 
 - [ ] Here the user has a possibility to control if it is correctly matched before potentially exporting it into a LCAx JSON format and doing the calculation.
 
-Link to youtube video with intorduction: https://youtu.be/GlpV5v2etjg
+Link to youtube video with introduction: https://youtu.be/GlpV5v2etjg
 
 ### Description of the tool
 
