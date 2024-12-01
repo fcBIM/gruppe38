@@ -3,7 +3,7 @@
 - Group 38: consisting of Frede Søndergaard Møllegaard s203729 and Kasper Holst s233432
 - This tool is targeting the BIMrole level 2 - Analyst. 
 
-We have been working with the focus area materials / LCA / Materials / Sustainability Assessment. With this focus area we have focused on creating a script that can extract materials within a IfcMaterialLayer and match it by by creating a Bag Of Word matrix vector query to run a cosine similarity check which in the end will give the user 5 suggestions to match the specific material with material from the environmental data. This can potentially lead to an automatization on creating LCI list for the LCA.
+We have worked with the focus area of Materials / LCA / Sustainability Assessment. With this focus area in mind we have created a script that is able to extract materials within a IfcMaterialLayer and match it, by creating a Bag Of Word matrix vector query, to run a cosine similarity check, which in the end will give the user five suggestions to match the specific IfcMaterialLayer with the material from the environmental data. This can potentially lead to an automatization for creating LCI lists for a full building LCA.
 
 
 
