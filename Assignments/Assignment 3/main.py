@@ -10,14 +10,14 @@ from sklearn.metrics.pairwise import cosine_similarity
 # Load the Excel file
 file_path_xl = 'File_path/Excel_EPD_Data.xlsx'
 
-# Read the Excel file into a DataFrame
+# Read the Excel file into a DataFrame and choose specific columns
 df = pd.read_excel(file_path_xl)
 df.columns = df.columns.str.lower()
 df = df.iloc[1:]
 df_selected = df.iloc[:, [1, 2, 4]]
 
 
-# IFC file import
+# IFC file import with error message if not found
 name = 'File_path/Adv.BIM/CES_BLD_24_06_ARC'
 model_url = name + ".ifc"
 
@@ -31,7 +31,7 @@ wall_types = model.by_type("IfcWallType")
 wall_type_areas = {}
 
 # Function to calculate wall area
-# OBS! Should be repaced with the standard ifc comand, when used with at newer ifc file
+# N.B.! Should be replaced with the standard ifc command, when used with a newer ifc file
 def calculate_wall_area(wall):
     if wall.Representation:
         for representation in wall.Representation.Representations:
