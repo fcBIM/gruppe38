@@ -43,9 +43,9 @@ Link to youtube video with introduction: https://youtu.be/GlpV5v2etjg
 The tool is a new suggetion on how to match up environmental data and quantaties of material layers from an ifc model using BoW. 
 The eaxmple that this exact tool solves is matching environmental data from a spreadsheet, which the group made, with the information available in the Ifc model on IfcWalls.
 The tools effectiveness in matching words were therfore found to be limited by:  
-- [ ] Words joint together by eg. "/".
-- [ ] Mix in languages (Danish and English).
-- [ ] Different units used eg. cm/mm/m.
+-  Words joint together by eg. "/".
+- Mix in languages (Danish and English).
+- Different units used eg. cm/mm/m.
 
 The tool relies a lot on the data used to create the document matrix and the query vectors and terefore the tool is quite dependent on this. However, the tool still helps a lot in matching the materials compared to exact material matching and make quite qualified guesses. On a lot of materials and can work quite flexibly. For instance if customized mixed material layers are used. 
 For a further look and explanation of the code follow this link:
@@ -58,7 +58,7 @@ In order to be able to run this tool we expect access to the following software:
 2. [X] IfcOpenShell (for ifc work)
 3. [X] Numpy (for matrix work)
 4. [X] Pandas (for JSON work)
-5. [X] (Microsoft package - Excel (used as environmental data file, could be any software))
+5. [X] Microsoft package - Excel (used as environmental dataset file, could be any software that is able to store, sort, and manipulate large datasets).
 
    
 ### Advanced Building Design
@@ -72,7 +72,7 @@ For the total environmental cost of the building the disciplines such as PM and 
 We would also propose that a new discipline for the Advanced Building Course is created, a so-called sustainability analyst, that could potentially provide the abovementioned work.  
 With such a discipline we would argue that the overall design of the building would include more thoughts on the environmental impact, ultimately reducing the GWP and meeting the Building Regulations requirements of a max CO2 emission of 12 kgCO2eq/m2/year. But potentially even meeting the Reduction Roadmap's ambitions to reduce the impact even more in trying to meet the Planetary Boundaries.
 
-On a higher level, it is hopefully  a tool that brings more awareness to, what information is included in the model.
+On a higher level, it is hopefully  a tool that brings more awareness to what information is included in the model.
 
 
 
