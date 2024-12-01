@@ -1,4 +1,4 @@
-<img width="613" alt="image" src="https://github.com/user-attachments/assets/06065be8-edc1-450c-aa49-c63d9d3ad4cd"># Assignment 3 Tool:
+# Assignment 3 Tool:
 
 ## 01. The IFC model
 The Industry Foundation classes (IFC) model used for developing this script is from the course Advanced Building Design (ABD) group #2406.
