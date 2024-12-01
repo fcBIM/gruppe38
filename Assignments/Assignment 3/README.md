@@ -1,21 +1,21 @@
 <img width="613" alt="image" src="https://github.com/user-attachments/assets/06065be8-edc1-450c-aa49-c63d9d3ad4cd"># Assignment 3 Tool:
 
 ## 01. The IFC model
-The IFC model used for developing this script is from the course Advanced Building Design group #2406.
+The Industry Foundation classes (IFC) model used for developing this script is from the course Advanced Building Design (ABD) group #2406.
 
-We are using the model made by ARC to extract data from the ifc file. We wish to extract the ifcEntity to get data about IfcMaterialLayers and their corresponding quantities. The entitiy chosen is the walls, but we believe the overall method can be applied for all entities in an ifc model. The tool aims to solve part of the solution of matching material quantities from a model, with the materials environmental data such as GWP and life time, using Bag of Word (BoW). 
+We are utilizing the architecture (ARC) model to extract data from the IFC file. We aim to extract the IfcEntity to get data about IfcMaterialLayers and their corresponding quantities. The selected entity is IfcwallStandardCase, however, we believe the general idea and method can be applied to all entities within an IFC model. This tool aims to solve part of the challenge when matching material quantities from an IFC model, with environmental data such as Global Warming Potential (GWP) and life time, using Bag of Word (BoW) operations. 
 
 ## 02. Use case
-The work done for Assignment 3 has been built on top of the work from Assignments 1 and 2, although some considerable modifications has been made.
+The work presented for Assignment 3 has been built on the foundation of Assignments 1 and 2, with several significant modifications implemented to enhance functionality and meet time constraints.
 
 The following list will explain the major changes in the tool:
-- **Less ambitious:** the idea for the tool was initially quite broad, and in our research and in dialogue with the course responsible, we found other examples of solutions where it had already been solved. This is the reasone why the focus was directed towards the matching of materials process. Furthermore, because of the limitations of our python skills, as well as the deadline, the ambition on creating a tool that can include all IfcEntities and calculate the environmental impact has been reduced to a single entity.
+- **Reduced scope:** the idea for the tool was initially quite broad, and in our research and in dialogue with the course responsible, we identified other examples of similar solutions. This led us to narrow our focus towards the material-matching process. Furthermore, due to our limitations when it comes to python proficiency, and the project deadline, we reduced the scope of creating a tool that is able to include all IfcEntities and calculate the environmental impact, to implement a match-operation on a single entity.
 
-- **Single and simple entity IfcWallStandard**: This change is because of the limitations explained above, we would rather show a fully functioning example of one entity than a solution where half of the idea is fulfilled.
+- **Simplified focus on IfcWallStandardCase**: This change is given on behalf of the limitations outlined above, we prioritized to deliver a fully functioning example of one entity rather than presenting an incomplete solution. Single entity *IfcWallStandardCase* was chosen.
   
-- **User friendly:** In order for this tool to be applicable for others and not be too time consuming, to change and to fit their own use case, the tool should be further developed in a certain direction. In section "Further Development for this tool" these ideas of user-friendliness will be presented.
+- **User friendliness:** In order for this tool to be applicable and practical for other users, the tool should be further developed in a certain direction. In section "Further Development for this tool" we present potential improvements to increase user-friendliness and customization options.
   
-- **High error rate:** Given the data in this example approximately 1/3 of the materials doesn't get a relevant match. However this clearly has to come from the flaws in the used data, which is described later in the section "Description of the tool"
+- **High error rate:** With the data provided approximately one-third of the materials fail to generate any match. However, this is primarily due to the flaws in the data used. This issue is discussed in greater detail in the section *Description of the tool*.
   
 
 ### State where you found that problem
