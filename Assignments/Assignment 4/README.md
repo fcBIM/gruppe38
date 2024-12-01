@@ -8,5 +8,5 @@ We have been working with the focus area materials / LCA / Materials / Sustainab
 
 
 A presentation of the use case and the tool can be found in the link below:
-https://github.com/fcBIM/gruppe38/blob/964fbfd4234c6e414f5024119a4a6fcb02be86da/Assignments/Assignment%204/Presentation%20of%20tool.pdf
+https://github.com/fcBIM/gruppe38/blob/964fbfd4234c6e414f5024119a4a6fcb02be86da/Assignments/Assignment%204/Presentation%20of%20tool.pdf  
 Link to youtube video with introduction: https://youtu.be/GlpV5v2etjg
