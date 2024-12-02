@@ -87,86 +87,25 @@ For this tool to be more user-friendly it is proposed that an implementation of 
 
 ## 04. Produce an IDS to check that the model can be run by your tool:
 
-We're a bit unsure of what is expected with this question. Our script in python and output in JSON (which could be considered our IDS) serves the same porpuse in checking, that the model can be run by our tool. For our purpose JSON is just way more human readable, which is why this format has been chosen. 
 
-The following section can therefore be considered a formality, if the other answer is accepted, to show that we also can work with the XML format: 
 
-To ensure that the script can be run using the IFC file we need to makes sure that the following is in the model: 
+### Need to have:
 
-IFC Entities (IfcWallType): 
-- The <ids:entity> tag ensures that the IfcWallType must be present in the IFC model.
-  
-Property Check (Material, Thickness, Area):
-- <ids:requirements>, lists the specific properties required for the IfcWallType.
-- <ids:property> tags ensure that Material, Thickness, and Area properties must be available.
-- <ids:value> with ANY means any value will satisfy the requirement (it just checks that the property exists).
+To ensure that the script can be run using the IFC model should contain:
+IFC Entities (IfcWallType in our example)- for each entity the following properties need to be defined: 
+    - Material, Thickness, and Area 
 
-With some adjustment to our main python script we'll change it to get the format in XML. Oneof the wall types has been chosen to seen as an example below: 
+Each of these should have their value checked to ensure that it is not 0.0, which he unfortunatly met multiple times. 
 
->
-        <ids:Applicability>
-                <ids:Entity name="IfcWallType"/>
-        </ids:Applicability>
-        <ids:Requirements>
-                <ids:Requirement>
-                        <ids:Entity name="IfcWallType">
-                                <ids:Property name="Name" required="true">
-                                        <ids:Value>WallType_1</ids:Value>
-                                </ids:Property>
-                                <ids:MaterialSet>
-                                        <ids:Material name="Clad - White">
-                                                <ids:Property name="LayerThickness" required="true">
-                                                        <ids:Value>1.0</ids:Value>
-                                                </ids:Property>
-                                        </ids:Material>
-                                        <ids:Material name="Gypsum Wall Board">
-                                                <ids:Property name="LayerThickness" required="true">
-                                                        <ids:Value>12.5</ids:Value>
-                                                </ids:Property>
-                                        </ids:Material>
-                                        <ids:Material name="Wood Joist/Rafter Layer, Batt Insulation">
-                                                <ids:Property name="LayerThickness" required="true">
-                                                        <ids:Value>70.0</ids:Value>
-                                                </ids:Property>
-                                        </ids:Material>
-                                </ids:MaterialSet>
-                        </ids:Entity>
-                </ids:Requirement>
-                <ids:Requirement>
-                        <ids:Entity name="IfcWallType">
-                                <ids:Property name="Name" required="true">
-                                        <ids:Value>WallType_2</ids:Value>
-                                </ids:Property>
-                                <ids:MaterialSet>
-                                        <ids:Material name="Concrete - Precast Concrete">
-                                                <ids:Property name="LayerThickness" required="true">
-                                                        <ids:Value>9.0</ids:Value>
-                                                </ids:Property>
-                                        </ids:Material>
-                                        <ids:Material name="Structure, Steel Bar Joist Layer">
-                                                <ids:Property name="LayerThickness" required="true">
-                                                        <ids:Value>10.0</ids:Value>
-                                                </ids:Property>
-                                        </ids:Material>
-                                </ids:MaterialSet>
-                        </ids:Entity>
-                </ids:Requirement>
-                <ids:Requirement>
-                        <ids:Entity name="IfcWallType">
-                                <ids:Property name="Name" required="true">
-                                        <ids:Value>WallType_3</ids:Value>
-                                </ids:Property>
-                                <ids:MaterialSet>
-                                        <ids:Material name="Glass, Clear Glazing">
-                                                <ids:Property name="LayerThickness" required="true">
-                                                        <ids:Value>70.0</ids:Value>
-                                                </ids:Property>
-                                        </ids:Material>
-                                </ids:MaterialSet>
-                        </ids:Entity>
-                </ids:Requirement>
-        </ids:Requirements>
-</ids:InformationDeliverySpecification>
+
+
+### Nice to have:
+
+    -Make sure to only use one language (English) in material description. 
+    -Use EPD code/number in model, which would make the matching much easier 
+    (The possiblities in our tool could still be relevant for unmatched materials, but only running material through which are unmatched.)
+
+
 
 
 
