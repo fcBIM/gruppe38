@@ -33,7 +33,7 @@ We aim to be able to solve the following steps with our tool:
 - [X] Importing an environmental data set. For this tool it's an excel file containaing environmental data, but it could be other environmental data repositories or Environmental Product Declarations (EPD), depending on the processing power and data libraries available. This is used to create the document matrix in the Bag of Word (BoW) analysis using the words in the excel rows.
 - [X] Extracting IfcMaterialLayers and the quantities from an Ifc file. Then cross referencing the words within the material layers with the BoW to create new query vectors. 
 - [X] Using the query vector the cosine simularity is calculated for all materials in the document matrix and the top five matches are suggested.
-- [X] The simularity scores are then exported to a JSON file, where each layer in the wall is displayed. Here the user has a possibility to control if it is correctly matched before potentially exporting it into a LCAx JSON format and doing the calculation.
+- [X] The similarity scores are then exported to a JSON file, where each layer in the wall is displayed. Here the user has a possibility to control if it is correctly matched before potentially exporting it into a LCAx JSON format and doing the calculation.
 
 Link to youtube video with introduction: https://youtu.be/GlpV5v2etjg
 
