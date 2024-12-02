@@ -5,7 +5,7 @@
 - This tool is targeting the BIMrole level 2 - Analyst. 
 
 ## Brief summary
-We have created a script that is able to extract materials within a IfcMaterialLayer and match it, by creating a Bag Of Word matrix vector query, to run a cosine similarity check, which in the end will give the user five suggestions to match the specific IfcMaterialLayer with the material from the environmental data. This can potentially lead to an automatization for creating LCI lists for a full building LCA.
+Our script can extract materials within an IfcMaterialLayer and match it with environmental data, by creating a Bag Of Word matrix, to run a cosine similarity check. In the end five materials will be suggested to the specific IfcMaterialLayer.
 
 
 
