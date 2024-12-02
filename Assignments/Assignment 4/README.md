@@ -1,9 +1,11 @@
 # Assignment 4 - Automatization of matching Ifc data with environmental data
 - Course: 41934 Advanced Building Information Modeling (BIM)
 - Group 38: consisting of Frede Søndergaard Møllegaard s203729 and Kasper Holst s233432
+- Focus area: Materials / LCA / Sustainability Assessment
 - This tool is targeting the BIMrole level 2 - Analyst. 
 
-We have worked with the focus area of Materials / LCA / Sustainability Assessment. With this focus area in mind we have created a script that is able to extract materials within a IfcMaterialLayer and match it, by creating a Bag Of Word matrix vector query, to run a cosine similarity check, which in the end will give the user five suggestions to match the specific IfcMaterialLayer with the material from the environmental data. This can potentially lead to an automatization for creating LCI lists for a full building LCA.
+## Brief summary
+We have created a script that is able to extract materials within a IfcMaterialLayer and match it, by creating a Bag Of Word matrix vector query, to run a cosine similarity check, which in the end will give the user five suggestions to match the specific IfcMaterialLayer with the material from the environmental data. This can potentially lead to an automatization for creating LCI lists for a full building LCA.
 
 
 
