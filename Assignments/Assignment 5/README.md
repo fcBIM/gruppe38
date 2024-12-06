@@ -11,7 +11,7 @@ We defined ourselves as 1 - Disagree to the quesiton: "I am confident coding in 
 ### how you might use OpenBIM in the future?
 
 ### Your process of developing the tutorial
-We did find it quite difficult to find the time to create a tutorial on how the tool was working, 
+We did find it quite difficult to find the time to create a tutorial on how the tool was working, but using a powerpoint presentation, with the explanation of the use case, BPMN diagram and the code in our tool gave a good all around tutorial of why our tool was created and on how it worked. Discussing what the different software requirements should be, also gave us a good idea on what we could potentially implement, such as LCAbyg JSON formatting, in the tool in the future.
 
 ### Did the process of the course enable you to answer or define questions that you might need later for thesis?
 
@@ -19,6 +19,7 @@ We did find it quite difficult to find the time to create a tutorial on how the 
 
 ### Was the number of tools for the course ok - should we have more or less? - if so which ones would you leave out?
 
+It would be very interesting to include some more links to videos about coding or the tools we got introduced to, as well as getting some more reading material, with this we could be more prepared for each lecture and maybe even get a better understanding of the presented material from the guest lecturers. We thought that some of the tools that we got introduced to such as the voxels were super interesting, but it was a bit difficult to understand how we could use it in our own project, when we are not given the time to work with it in-class with supervision.
 
 
 ### Summary of the feedback you received on your tutorial
