@@ -3,21 +3,24 @@
 
 ## Group
 
-Your learning experience for the concept you focused on.
-Identify your own level at the beginning of this course and where you ended :
+### Our learning experience for the concept you focused on.
 
-What else do you still need to learn?
+### Identify your own level at the beginning of this course and where you ended :
 
-how you might use OpenBIM in the future?
+We defined ourselves as 1 - Disagree to the quesiton: "I am confident coding in Python"
 
-Your process of developing the tutorial
+### What else do you still need to learn?
+
+### how you might use OpenBIM in the future?
+
+### Your process of developing the tutorial
 We did find it quite difficult to find the time to create a tutorial on how the tool was working, 
 
-Did the process of the course enable you to answer or define questions that you might need later for thesis?
+### Did the process of the course enable you to answer or define questions that you might need later for thesis?
 
-Would you have preferred to have been given less choice in the use cases?
+### Would you have preferred to have been given less choice in the use cases?
 
-Was the number of tools for the course ok - should we have more or less? - if so which ones would you leave out?
+### Was the number of tools for the course ok - should we have more or less? - if so which ones would you leave out?
 
 
 
