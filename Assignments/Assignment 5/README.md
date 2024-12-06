@@ -11,6 +11,8 @@ What else do you still need to learn?
 how you might use OpenBIM in the future?
 
 Your process of developing the tutorial
+We did find it quite difficult to find the time to create a tutorial on how the tool was working, 
+
 Did the process of the course enable you to answer or define questions that you might need later for thesis?
 
 Would you have preferred to have been given less choice in the use cases?
