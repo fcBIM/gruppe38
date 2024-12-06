@@ -4,7 +4,7 @@
 
 ### Identify your own level at the beginning of this course and where you ended :
 
-We defined ourselves as 1 - Disagree to the quesiton: "I am confident coding in Python"
+We defined ourselves as: 1 - Disagree to the quesiton: "I am confident coding in Python", as we both had prior experience with the programming fundamentals but not much experience with Python. We divided some of the scripts elements, based on other courses that we were taking during this course, providing more python knowledge and making it possible to implement it to the script. At the end of this course we would probably answer differently to the question, but we would range it to be between from Neutral to Agree. 
 
 ### What else do you still need to learn?
 
