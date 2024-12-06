@@ -19,8 +19,16 @@ Was the number of tools for the course ok - should we have more or less? - if so
 
 
 
-(As a group) summary of the feedback you received on your tutorial
-did the tool address the use case you identified?
+### Summary of the feedback you received on your tutorial
+
+We got some really useful feedback from the other groups. First of all, we chose to do a presentation in plenum in our Focus Area group, which gave us the perfect opportunity to get a lot of different feedback. Another positive was that some people was more proficient in the programming skill, some with a lot of sustainability knowledge, some with good communication skills, and this provided us with a lot of good feedback. 
+
+Some of the feedback we got was to state the use case even more clear and what the tool was actually capable of doing. It's true that being the developers of the tool has made us maybe think it's a simple tool to understand, but in reality it is quite a complex concept and by explaining the scripts code more in detail could deliver a better understanding on what the tool is able to do.
+
+Other useful feedback we got was that we should try to implement a bigger material library, such as the BR18 attachment 2, tabel 7. in order to broaden our matching capabilities and potentially also make it more applicable to the analyst in the real world.
+The link to the BR18 tabel 7: https://www.bygningsreglementet.dk/bilag/b2/bilag_2/tabel_7/#4f10dbac-ba91-4bad-9f1e-2b7054ec8547.
+
+Lastly, we got feedback on the tool and that we should maybe try to implement some more user-friendliness besides the JSON and excel files. But overall they thought that our ideas was creative and that we did a good presentation.
 
 
 ## Individual
@@ -42,11 +50,14 @@ the guest lectures were also very inspirering and gave a nice picture of what el
 
 
 ### Kasper
-(Individual) Your future for Advanced use of OpenBIM
-are you likely to use OpenBIM tools in your thesis?
 
-are you likely to use OpenBIM tools in your professsional life in the next 10 years?
+#### Are you likely to use OpenBIM tools in your thesis?
+I have enjoyed expanding my BIM knowledge, from the knowledge I got in "Introduction to OpenBIM" during my 2nd semester, and I definitely regret not taking this course on my 1st semester last year instead of now. This Course could have opened way more doors for my experience during "Advanced Building Design" course on my 2nd semester. Albeit, I feel like this course did open some doors into the digitization in the building industry but, in order for me to feel more comfortable to take my knowledge and use it in my thesis, I would prefer more time for trial and error and perhaps another course where I could implement my experiences. I don't exclude the fact that I could use it in my thesis but right now I would rather prefer some more LCA heavy thesis.
 
-(Individual) Wrap up
-conclude the journey through A1-A5
+#### Are you likely to use OpenBIM tools in your professsional life in the next 10 years?
+I definitely see myself using the tools we have learned in this course in the future, whether it be on a more theoretical or practical basis I don't dare to say, but I know I would need to improve my programming skills in order to be efficient with some of the themes from this course. I see a great potential in the ability to extract the data from models, and implement new ideas by the help of programming and scripting relevant tools.
+
+#### Conclude the journey through A1-A5
+
+In the beginning during assignment 1, it was quite a confusing process, what group am I in?, What is the assignment? and what is this going to end with? These were some questions popping up in my head, but slowly during Assignment 2 and 3 it became more clear to me what the real task was going to be. Especially during Assignment 3 the time to learn how to program and what these skills was useful for became clear, although the process of developing our tool wasn't frictionless. It became quite clear that trying to explain a complex programming concept to another person, was difficult, and we slowly began to implement small "use case diagrams" and "flow charts" when developing the tool. This process gave me a better understanding on how to discuss abd create a tool in a collaboration.
 
