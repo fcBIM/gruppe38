@@ -12,7 +12,7 @@ We have a feeling that we have covered the learning objectives. However, the gue
 
 
 ### How you might use OpenBIM in the future?
-
+Hopefully, more professionally—it would be nice to have it implemented and avoid more “manual” labor by automating more of the processes than what is currently happening in many places. Also, it would be cool to know that these different tools exist, as I am planning to take more programming courses. It is quite relevant to know how to extract data from building models so that it is compatible with the tools from other courses.
 
 
 ### Your process of developing the tutorial
