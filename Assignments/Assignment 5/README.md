@@ -1,21 +1,28 @@
-# Assignment 5 - Project and course reflection
+![image](https://github.com/user-attachments/assets/2e9ac82e-c152-4a33-9cc9-363cc56b867f)# Assignment 5 - Project and course reflection
 
 ### Our learning experience for the concept you focused on.
+We started out quite broad with an automation solution for a complete LCA in order to check the numbers from a previous Advanced Building Design report. After our research into LCA solutions in previous years, dialogue with the TA/the course responsible, and making parts of the scripts, we identified data matching as a key challenge in the automation of LCAs. Therefore, we focused on that part. From this, we learned that the solution is quite limited to the data available, and it opened up a world of opportunities in the crossfield between building models and programming.
 
 ### Identify your own level at the beginning of this course and where you ended :
 
 We defined ourselves as: 1 - Disagree to the quesiton: "I am confident coding in Python", as we both had prior experience with the programming fundamentals but not much experience with Python. We divided some of the scripts elements, based on other courses that we were taking during this course, providing more python knowledge and making it possible to implement it to the script. At the end of this course we would probably answer differently to the question, but we would range it to be between from Neutral to Agree. 
 
 ### What else do you still need to learn?
+Definetly have a feeling that we have covered the learning objectives. However, the guest lectures served to be quite inspereing and can be potential deep dives.
 
-### how you might use OpenBIM in the future?
+
+### How you might use OpenBIM in the future?
+
+
 
 ### Your process of developing the tutorial
 We did find it quite difficult to find the time to create a tutorial on how the tool was working, but using a powerpoint presentation, with the explanation of the use case, BPMN diagram and the code in our tool gave a good all around tutorial of why our tool was created and on how it worked. Discussing what the different software requirements should be, also gave us a good idea on what we could potentially implement, such as LCAbyg JSON formatting, in the tool in the future.
 
 ### Did the process of the course enable you to answer or define questions that you might need later for thesis?
+With 1.5 years left before writing the thesis, it is still a bit abstract. However, it planted some seeds that can definitely be useful and defined new approaches, which could be interesting to incorporate.
 
 ### Would you have preferred to have been given less choice in the use cases?
+The use case worked out quite well for us. The freedom and possibility to deviate from the original scope and focus solely on one part was nice. The process of selecting the numbers to check worked quite well for us in the innovative process.
 
 ### Was the number of tools for the course ok - should we have more or less? - if so which ones would you leave out?
 
