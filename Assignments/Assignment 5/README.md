@@ -1,14 +1,14 @@
-![image](https://github.com/user-attachments/assets/2e9ac82e-c152-4a33-9cc9-363cc56b867f)# Assignment 5 - Project and course reflection
+# Assignment 5 - Project and course reflection
 
 ### Our learning experience for the concept you focused on.
-We started out quite broad with an automation solution for a complete LCA in order to check the numbers from a previous Advanced Building Design report. After our research into LCA solutions in previous years, dialogue with the TA/the course responsible, and making parts of the scripts, we identified data matching as a key challenge in the automation of LCAs. Therefore, we focused on that part. From this, we learned that the solution is quite limited to the data available, and it opened up a world of opportunities in the crossfield between building models and programming.
+We started out quite broad with an automatization solution for a complete LCA in order to check the numbers from a previous Advanced Building Design report. After our research into LCA solutions in previous years, dialogue with the TA/the course responsible, and making parts of the scripts, we identified data matching as a key challenge in the automatizationon of LCAs. Therefore, we focused on that part. From this, we learned that the solution is quite limited to the data available, and it opened up a world of opportunities in the crossfield between building models and programming.
 
 ### Identify your own level at the beginning of this course and where you ended :
 
-We defined ourselves as: 1 - Disagree to the quesiton: "I am confident coding in Python", as we both had prior experience with the programming fundamentals but not much experience with Python. We divided some of the scripts elements, based on other courses that we were taking during this course, providing more python knowledge and making it possible to implement it to the script. At the end of this course we would probably answer differently to the question, but we would range it to be between from Neutral to Agree. 
+We defined ourselves as: 1 - Disagree to the quesiton: "I am confident coding in Python", as we both had prior experience with the programming fundamentals but not much experience with Python. We divided some of the scripts elements, based on other courses that we were taking during this course, providing more python knowledge and making it possible to implement it to the script. At the end of this course we would probably answer differently to the question, but we would range it to be between from Neutral to Agree. We could probably argue that we've gone from BIM modeller to BIM self-learner during this course.
 
 ### What else do you still need to learn?
-Definetly have a feeling that we have covered the learning objectives. However, the guest lectures served to be quite inspereing and can be potential deep dives.
+We have a feeling that we have covered the learning objectives. However, the guest lectures served to be quite inspiring and can be potential deep dives.
 
 
 ### How you might use OpenBIM in the future?
